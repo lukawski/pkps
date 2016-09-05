@@ -29,9 +29,9 @@ var pkpsApp = angular.module('pkpsApp', ['ngRoute']);
 
             when('/galeria', {
               templateUrl: 'galeria.html'
-            }).
-
-            otherwise({
-               redirectTo: '/about'
             });
+
+            /*otherwise({
+               redirectTo: '/about'
+            });*/
          }]);
