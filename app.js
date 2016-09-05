@@ -1,10 +1,6 @@
 var pkpsApp = angular.module('pkpsApp', ['ngRoute']);
          pkpsApp.config(['$routeProvider', function($routeProvider) {
             $routeProvider.
-
-            when('/', {
-                templateUrl: 'about.html'
-            }).
             
             when('/about', {
               templateUrl: 'about.html'
@@ -35,7 +31,7 @@ var pkpsApp = angular.module('pkpsApp', ['ngRoute']);
               templateUrl: 'galeria.html'
             });
 
-            /*otherwise({
+            otherwise({
                redirectTo: '/about'
-            });*/
+            });
          }]);
