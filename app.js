@@ -8,7 +8,6 @@ var pkpsApp = angular.module('pkpsApp', ['ngRoute']);
 
             when('/statut', {
                templateUrl: 'statut.html'
-
             }).
 
             when('/zarzad', {
@@ -29,7 +28,7 @@ var pkpsApp = angular.module('pkpsApp', ['ngRoute']);
 
             when('/galeria', {
               templateUrl: 'galeria.html'
-            });
+            }).
 
             otherwise({
                redirectTo: '/about'
