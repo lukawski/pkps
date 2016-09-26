@@ -35,7 +35,15 @@
     }
 }
 
-.hello-container {
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.hello-section {
     height: 100vh;
     background-image: url('../img/bg.jpg');
     background-position: center;
