@@ -37,22 +37,26 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background: #E5ECF4;
 }
 
-.navbar {
-    margin-bottom: 0;
-}
-
-.hello-section {
-    height: 100vh;
-    background-image: url('../img/bg.jpg');
-    background-position: center;
-    background-attachment: fixed;
-    position: relative;
-}
-
-.h {
-    position: absolute;
-    top: 30%;
+.text-center {
     text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
+.page-header {
+    border-bottom: 1px solid grey;
+}
+
+.page-header > h1 {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.descr > h2 {
+    font-size: 2em;
 }
