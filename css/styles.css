@@ -48,4 +48,11 @@ body {
     background-image: url('../img/bg.jpg');
     background-position: center;
     background-attachment: fixed;
+    position: relative;
+}
+
+.h {
+    position: absolute;
+    top: 30%;
+    text-align: center;
 }
