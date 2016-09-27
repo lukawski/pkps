@@ -57,6 +57,31 @@ body {
     font-size: 3em;
 }
 
-.descr > h2 {
-    font-size: 2em;
+.about {
+    font-size: 2.4em;
+}
+
+.center {
+    float: none;
+    margin: 0 auto;
+}
+
+.content {
+    text-align: justify;
+    margin-top: 5%;
+    font-size: 1.143em;
+}
+
+.hello-section {
+    height: 90vh;
+    position: relative;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
