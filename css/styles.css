@@ -39,6 +39,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     background: #E5ECF4;
     color: rgb(26, 26, 26);
+    padding-top: 70px;
 }
 
 .text-center {
@@ -47,6 +48,10 @@ body {
 
 .navbar-default .navbar-nav>li>a {
     color: black;
+}
+
+.navbar-brand {
+    padding: 9px 10px;
 }
 
 .page-header {
