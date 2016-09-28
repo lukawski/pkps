@@ -38,6 +38,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background: #E5ECF4;
+    color: rgb(26, 26, 26);
 }
 
 .text-center {
@@ -84,4 +85,16 @@ body {
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     transform: translateX(-50%);
+}
+
+.scroll-down-button:link {
+    color: rgb(0, 0, 0);
+}
+
+.scroll-down-button:visited {
+    color: rgb(0, 0, 0);
+}
+
+.scroll-down-button:hover {
+    color: rgb(38, 38, 38);
 }
