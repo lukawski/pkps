@@ -2,22 +2,175 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="manifest.json">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&subset=latin,latin-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://use.fontawesome.com/ce2707d4e5.js"></script>
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/styles.css" type="text/css" />
+        <script type="text/javascript" src="js/index.js" async></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>PKPS Z.O. Szczecin</title>
     </head>
 
     <body>
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+              <span class="sr-only">Rozwiń menu</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+              <img alt="PKPS Szczecin" src="img/favicon.ico"></img>
+            </a>
+          </div>
+          
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="nav navbar-nav navbar-left">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">O nas <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Zarząd</a></li>
+                  <li><a href="#">Rys historyczny PKPS</a></li>
+                  <li><a href="#">Komu pomagamy</a></li>
+                  <li><a href="#">Finanse</a></li>
+                  <li><a href="#">Statut</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Galeria</a></li>
+              <li><a href="#">Kontakt</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Realizowane programy <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Urząd Miasta Szczecin</a></li>
+                  <li><a href="#">Minister rodziny, pracy i polityki społecznej</a></li>
+                  <li><a href="#">Urząd Wojewódzki Szczecin</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dodatkowe działania</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Placówki PKPS <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Bar mleczny "Kogel-Mogel"</a></li>
+                  <li><a href="#">Schronisko dla bezdomnych "Wigilia"</a></li>
+                  <li><a href="#">Biuro Porad Obywatelskich</a></li>
+                  <li><a href="#">Punkt Pomocy PKPS Szczecin</a></li>
+                  <li><a href="#">Magazyn główny PKPS</a></li>
+                  <li><a href="#">ZP PKPS w Stargardzie</a></li>
+                  <li><a href="#">ZP PKPS w Goleniowie</a></li>
+                  <li><a href="#">ZP PKPS w Pyrzycach</a></li>
+                  <li><a href="#">ZP PKPS w Myśliborzu</a></li>
+                  <li><a href="#">ZMG PKPS w Barlinku</a></li>
+                  <li><a href="#">ZMG PKPS w Nowogardzie</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pomoc żywnościowa 2014-2020 <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Podprogram 2015</a></li>
+                  <li><a href="#">Podprogram 2020</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <div class="container-fluid hello-section">
+        <div class="row">
+          <div class="col-lg-12">
+              <div class="page-header text-center"><h1>W służbie człowiekowi  <i class="fa fa-users" aria-hidden="true"></i></h1></div>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-lg-4 text-center"><h2 class="about">Słuchamy</h2></div>
+          <div class="col-lg-4 text-center"><h2 class="about">Rozumiemy</h2></div>
+          <div class="col-lg-4 text-center"><h2 class="about">Pomagamy</h2></div>
+        </div>
+        
+        <div class="row content">
+          <div class="col-lg-6 center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a venenatis enim. 
+          Aenean interdum in metus eget ornare. Quisque nec vestibulum ipsum. Aenean at convallis nisi, eu bibendum felis.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a venenatis enim. 
+          Aenean interdum in metus eget ornare. Quisque nec vestibulum ipsum. Aenean at convallis nisi, eu bibendum felis.
+          </div>
+        </div>
+        
+        <div class="row scroll-down">
+          <div class="col-lg-12 text-center">
+            <div>
+              <p><h3>Poznaj nas lepiej</h3></p>
+              <a href="#" class="scroll-down-button" role="button"><i class="fa fa-angle-down fa-4x" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
       <div class="container-fluid">
-        <div class="row hello-container">
-          <div class="col-lg-12">Hello</div>
+        <div class="row zarzad shadow">
+          <div class="col-lg-6 home-description">
+            <div class="vertical-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Duis a venenatis enim. Aenean interdum in metus eget ornare. Quisque nec vestibulum ipsum. 
+              Aenean at convallis nisi, eu bibendum felis. Lorem ipsum dolor sit amet, consectetur
+              </div>
+          </div>
+          <div class="col-lg-6 zarzad-img">
+            <div class="vertical-center"><h1 class="bolder roboto-font">ZARZĄD</h1></div>
+          </div>
         </div>
+        
+        <div class="row gap"></div>
+        
+        <div class="row history shadow"> 
+          <div class="col-lg-6 history-img">
+            <div class="vertical-center"><h1 class="bolder roboto-font">RYS HISTORYCZNY</h1></div>
+          </div>
+          <div class="col-lg-6 home-description">
+              <div class="vertical-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Duis a venenatis enim. Aenean interdum in metus eget ornare. Quisque nec vestibulum ipsum. 
+              Aenean at convallis nisi, eu bibendum felis. Lorem ipsum dolor sit amet, consectetur</div>
+          </div>
         </div>
+        
+        <div class="row gap"></div>
+        
+        <div class="row helping shadow">
+          <div class="col-lg-6 home-description">
+            <div class="vertical-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Duis a venenatis enim. Aenean interdum in metus eget ornare. Quisque nec vestibulum ipsum. 
+              Aenean at convallis nisi, eu bibendum felis. Lorem ipsum dolor sit amet, consectetur</div>
+          </div>
+          <div class="col-lg-6 helping-img">
+            <div class="vertical-center"><h1 class="bolder roboto-font">KOMU POMAGAMY</h1></div>
+          </div>
+        </div>
+        
+        <div class="row gap"></div>
+        
+        <div class="row finanse shadow">
+          <div class="col-lg-6 finanse-img">
+            <div class="vertical-center"><h1 class="bolder roboto-font">FINANSE</h1></div>
+          </div>
+            <div class="col-lg-6 home-description">
+              <div class="vertical-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Duis a venenatis enim. Aenean interdum in metus eget ornare. Quisque nec vestibulum ipsum. 
+              Aenean at convallis nisi, eu bibendum felis. Lorem ipsum dolor sit amet, consectetur</div>
+            </div>
+        </div>
+      </div>
     </body>
 </html>
