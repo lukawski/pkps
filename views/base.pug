@@ -1,0 +1,105 @@
+html(lang='en')
+    block vars
+    head
+        block head-top
+        meta(charset='utf-8')
+        link(rel='icon', type='image/png', sizes='32x32', href='/static/favicon-32x32.png')
+        link(rel='icon', type='image/png', sizes='96x96', href='/static/favicon-96x96.png')
+        link(rel='icon', type='image/png', sizes='16x16', href='/static/favicon-16x16.png')
+        link(rel='manifest', href='manifest.json')
+        link(href='https://fonts.googleapis.com/css?family=Montserrat&subset=latin,latin-ext', rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css?family=Roboto+Slab', rel='stylesheet')
+        link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
+        script(src='https://use.fontawesome.com/ce2707d4e5.js')
+        script(type='text/javascript', src='https://code.jquery.com/jquery-2.1.1.min.js')
+        link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u', crossorigin='anonymous')
+        link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css', integrity='sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp', crossorigin='anonymous')
+        script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', integrity='sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa', crossorigin='anonymous')
+        link(rel='stylesheet', href='/static/css/styles.css', type='text/css')
+        script(type='text/javascript', src='/static/js/index.js', async='')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        title #{title} | PKPS Z.O. Szczecin
+        block head-bottom
+    body
+        nav.navbar.navbar-default.navbar-fixed-top
+            .container-fluid
+                .navbar-header
+                button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded='false')
+                    span.sr-only Rozwiń menu
+                    span.icon-bar
+                    span.icon-bar
+                    span.icon-bar
+                a.navbar-brand(href='#')
+                    img(alt='PKPS Szczecin', src='/static/img/favicon.ico')
+                #navbar.collapse.navbar-collapse
+                ul.nav.navbar-nav.navbar-left
+                    li.dropdown
+                    a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+                        | O nas 
+                        span.caret
+                    ul.dropdown-menu
+                        li
+                        a(href='#') Zarząd
+                        li
+                        a(href='#') Rys historyczny PKPS
+                        li
+                        a(href='#') Komu pomagamy
+                        li
+                        a(href='#') Finanse
+                        li
+                        a(href='#') Statut
+                    li
+                    a(href='#') Galeria
+                    li
+                    a(href='#') Kontakt
+                ul.nav.navbar-nav.navbar-right
+                    li.dropdown
+                    a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+                        | Realizowane programy 
+                        span.caret
+                    ul.dropdown-menu
+                        li
+                        a(href='#') Urząd Miasta Szczecin
+                        li
+                        a(href='#') Minister rodziny, pracy i polityki społecznej
+                        li
+                        a(href='#') Urząd Wojewódzki Szczecin
+                    li
+                    a(href='#') Dodatkowe działania
+                    li.dropdown
+                    a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+                        | Placówki PKPS 
+                        span.caret
+                    ul.dropdown-menu
+                        li
+                        a(href='#') Bar mleczny "Kogel-Mogel"
+                        li
+                        a(href='#') Schronisko dla bezdomnych "Wigilia"
+                        li
+                        a(href='#') Biuro Porad Obywatelskich
+                        li
+                        a(href='#') Punkt Pomocy PKPS Szczecin
+                        li
+                        a(href='#') Magazyn główny PKPS
+                        li
+                        a(href='#') ZP PKPS w Stargardzie
+                        li
+                        a(href='#') ZP PKPS w Goleniowie
+                        li
+                        a(href='#') ZP PKPS w Pyrzycach
+                        li
+                        a(href='#') ZP PKPS w Myśliborzu
+                        li
+                        a(href='#') ZMG PKPS w Barlinku
+                        li
+                        a(href='#') ZMG PKPS w Nowogardzie
+                    li.dropdown
+                    a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+                        | Pomoc żywnościowa 2014-2020 
+                        span.caret
+                    ul.dropdown-menu
+                        li
+                        a(href='#') Podprogram 2015
+                        li
+                        a(href='#') Podprogram 2020
+        block body
