@@ -161,9 +161,9 @@ body {
 }
 
 .shadow {
-    -webkit-box-shadow: 0px -5px 13px 1px rgba(168,168,168,0.8);
-    -moz-box-shadow: 0px -5px 13px 1px rgba(168,168,168,0.8);
-    box-shadow: 0px -5px 13px 1px rgba(168,168,168,0.8);
+-webkit-box-shadow: 0px 0px 20px 0px rgba(5,4,5,1);
+-moz-box-shadow: 0px 0px 20px 0px rgba(5,4,5,1);
+box-shadow: 0px 0px 20px 0px rgba(5,4,5,1);
 }
 
 .home-description {
@@ -172,7 +172,7 @@ body {
 }
 
 .finanse-img {
-    background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/money.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/money.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -180,9 +180,22 @@ body {
 }
 
 .zarzad-img {
-    background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/board.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/board.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+}
+
+.history-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://hd.unsplash.com/photo-1446421728091-d32c69806a8e");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.gap {
+    background: rgb(232, 249, 255);
+    min-height: 50px;
 }
