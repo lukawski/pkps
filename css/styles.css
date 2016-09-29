@@ -37,9 +37,13 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background: #E5ECF4;
+    background: rgb(232, 249, 255);
     color: rgb(26, 26, 26);
     padding-top: 70px;
+}
+
+.roboto-font {
+    font-family: 'Roboto Slab', serif;
 }
 
 .vertical-center {
@@ -96,6 +100,8 @@ body {
     -webkit-box-shadow: 0px 5px 13px 1px rgba(168,168,168,0.8);
     -moz-box-shadow: 0px 5px 13px 1px rgba(168,168,168,0.8);
     box-shadow: 0px 5px 13px 1px rgba(168,168,168,0.8);
+    background-image: none;
+    background-color: rgb(255, 255, 255);
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -161,7 +167,7 @@ body {
 }
 
 .finanse-description {
-    background-color: rgb(77, 121, 255);
+    background-color: rgb(206, 242, 255);
     text-align: justify;
 }
 
