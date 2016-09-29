@@ -92,6 +92,12 @@ body {
     font-weight: bold;    
 }
 
+.navbar-default {
+    -webkit-box-shadow: 0px 5px 13px 1px rgba(168,168,168,0.8);
+    -moz-box-shadow: 0px 5px 13px 1px rgba(168,168,168,0.8);
+    box-shadow: 0px 5px 13px 1px rgba(168,168,168,0.8);
+}
+
 .navbar-default .navbar-nav>li>a {
     color: black;
 }
@@ -148,16 +154,19 @@ body {
     color: rgb(38, 38, 38);
 }
 
-.description {
+.finanse {
+    -webkit-box-shadow: 0px -5px 13px 1px rgba(168,168,168,0.8);
+    -moz-box-shadow: 0px -5px 13px 1px rgba(168,168,168,0.8);
+    box-shadow: 0px -5px 13px 1px rgba(168,168,168,0.8);
+}
+
+.finanse-description {
     background-color: rgb(77, 121, 255);
     text-align: justify;
 }
 
 .finanse-img {
-    background:  linear-gradient(
-                  rgba(0, 0, 0, 0.5), 
-                  rgba(0, 0, 0, 0.5)
-                ), url("../img/pexels-photo.jpg");
+    background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/pexels-photo.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
