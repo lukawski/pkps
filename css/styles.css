@@ -131,12 +131,9 @@ body {
 }
 
 .scroll-down {
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    transform: translateX(-50%);
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    transform: translateY(100%);
 }
 
 .scroll-down-button:link {
@@ -162,7 +159,7 @@ body {
                   rgba(0, 0, 0, 0.5)
                 ), url("../img/pexels-photo.jpg");
     background-position: center;
-    background-repeat: repeat-x;
-    background-size: 110%;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
 }
