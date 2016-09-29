@@ -35,11 +35,30 @@
     }
 }
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     background: rgb(232, 249, 255);
     color: rgb(26, 26, 26);
     padding-top: 70px;
+    margin-bottom: 50px
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+
+.footer > .container > .col-lg-6 {
+    padding-top: 15px;
 }
 
 .roboto-font {
@@ -90,6 +109,10 @@ body {
 
 .text-center {
     text-align: center;
+}
+
+.text-right {
+    text-align: right;
 }
 
 .bolder {
