@@ -6,26 +6,20 @@ html(lang='en')
         link(rel='icon', type='image/png', sizes='32x32', href='/static/favicon-32x32.png')
         link(rel='icon', type='image/png', sizes='96x96', href='/static/favicon-96x96.png')
         link(rel='icon', type='image/png', sizes='16x16', href='/static/favicon-16x16.png')
-
         link(rel='manifest', href='manifest.json')
-
         link(href='https://fonts.googleapis.com/css?family=Montserrat&subset=latin,latin-ext', rel='stylesheet')
         link(href='https://fonts.googleapis.com/css?family=Roboto+Slab', rel='stylesheet')
         link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
-
         script(src='https://use.fontawesome.com/ce2707d4e5.js')
-        
         script(type='text/javascript', src='https://code.jquery.com/jquery-2.1.1.min.js')
-
+        script(src='/socket.io/socket.io.js')
         link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
         link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css')
         script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
-
+        script(type='text/javascript', src='/static/js/socket.js')
         link(rel='stylesheet', href='/static/css/styles.css', type='text/css')
         script(type='text/javascript', src='/static/js/scroll.js', async='')
-
         meta(name='viewport', content='width=device-width, initial-scale=1.0')
-
         title #{title} | PKPS Z.O. Szczecin
         block head-bottom
     body#hello
