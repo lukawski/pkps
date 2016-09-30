@@ -2,7 +2,7 @@ extends base
 block vars
     - var title = "Strona główna"
 block body
-    .container-fluid.hello-section
+    .container-fluid.hello-section#hello
         .row
             .col-lg-12
                 .page-header.text-center
@@ -28,7 +28,7 @@ block body
                     p
                     h3 Poznaj nas lepiej
                     p
-                    a.scroll-down-button(href='#', role='button')
+                    a.scroll-down-button(href='#board', role='button')
                         i.fa.fa-angle-down.fa-4x(aria-hidden='true')
     .container-fluid
         .row.zarzad.shadow#board
