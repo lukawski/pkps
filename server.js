@@ -18,7 +18,13 @@ router.route('/')
     res.render('home.pug');
 });
 
+router.route('/contact')
+.get(function(req, res) {
+    res.render('contact.pug');
+});
+
 app.use('/', router);
+app.use('/contact', router);
 
 http.listen(port, function() {
     console.log('Listening on port ' + port + '...');
