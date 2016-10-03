@@ -1,4 +1,29 @@
 extend base
 block vars
     - var title = "Kontakt"
+block head-bottom
+    link(rel='stylesheet', href='/static/css/contact.css', type='text/css')
+    script(src="/static/js/contact.js")
 block body
+    .row
+        .col-md-6.col-md-offset-3
+            .header.text-center
+                | Skontaktuj się z nami
+    .row
+        .col-md-6.col-md-offset-3
+            form(method="POST").form-horizontal
+                .form-group
+                    label(for="mail").control-label.col-sm-2 E-mail: 
+                    .col-sm-10
+                        input(type="text", name="mail").form-control
+                .form-group
+                    label(for="name").control-label.col-sm-2 Imię:
+                    .col-sm-10
+                        input(type="text", name="name").form-control
+                .form-group
+                    label(for="message").control-label.col-sm-2 Treść: 
+                    .col-sm-10
+                        textarea(name="message").form-control
+                .form-group
+                    .col-sm-6.col-sm-offset-3
+                        button(type="submit").btn.btn-primary Wyślij

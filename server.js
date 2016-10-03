@@ -7,7 +7,8 @@ var express = require('express'),
     bodyParser = require('body-parser'),
     pug = require('pug'),
     io = require('socket.io')(http),
-    fs = require('fs');
+    fs = require('fs'),
+    nodemailer = require('nodemailer');
 
 // Express config
 app.set('view engine', 'pug');
@@ -36,10 +37,15 @@ router.route('/')
 router.route('/contact')
 .get(function(req, res) {
     res.render('contact.pug');
+})
+.post(function(req, res) {
+    console.log("Mail: " + req.body.mail);
+    console.log("Name: " + req.body.name);
+    console.log("Message: " + req.body.message);
+    //Sending mail, will do later
 });
 
 app.use('/', router);
-app.use('/contact', router);
 
 // Server
 http.listen(port, function() {
