@@ -39,7 +39,6 @@ router.route('/contact')
 });
 
 app.use('/', router);
-app.use('/contact', router);
 
 // Server
 http.listen(port, function() {
