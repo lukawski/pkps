@@ -215,7 +215,7 @@ body {
 }
 
 .history-img {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://hd.unsplash.com/photo-1446421728091-d32c69806a8e");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/img/history.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -230,23 +230,15 @@ body {
     color: white;
 }
 
+.statut-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/img/statut.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
 .gap {
     background: rgb(232, 249, 255);
     min-height: 50px;
-}
-
-.main-list {
-    list-style: none;
-    margin-left: 0;
-    padding-left: 0;
-}
-
-.main-list li {
-    padding-left: 1em;
-    text-indent: -1em;
-}
-
-.main-list li:before {
-  content: "+";
-  padding-right: 5px;
 }
