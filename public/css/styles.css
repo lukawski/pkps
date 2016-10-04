@@ -43,7 +43,6 @@ html {
 body {
     font-family: 'Montserrat', sans-serif;
     background: rgb(232, 249, 255);
-    color: rgb(26, 26, 26);
     padding-top: 70px;
     margin-bottom: 50px
 }
@@ -113,6 +112,10 @@ body {
 
 .text-right {
     text-align: right;
+}
+
+.text-justif {
+    text-align: justify;
 }
 
 .bolder {
@@ -230,4 +233,20 @@ body {
 .gap {
     background: rgb(232, 249, 255);
     min-height: 50px;
+}
+
+.main-list {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.main-list li {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+.main-list li:before {
+  content: "+";
+  padding-right: 5px;
 }
