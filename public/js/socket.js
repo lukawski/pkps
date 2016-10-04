@@ -3,11 +3,11 @@ $(document).ready(function() {
 
     socket.on('views', function(views) {
         console.log('Views: ' + views);
-        $('#views').append(views);
+        $('#views').text(views);
     });
 
     socket.on('online', function(online) {
         console.log('Online: ' + online);
-        $('#online').append(online);
+        $('#online').text(online);
     });
 });

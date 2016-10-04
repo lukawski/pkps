@@ -7,7 +7,7 @@ html(lang='en')
         link(rel='icon', type='image/png', sizes='96x96', href='/static/favicon-96x96.png')
         link(rel='icon', type='image/png', sizes='16x16', href='/static/favicon-16x16.png')
         link(rel='manifest', href='manifest.json')
-        link(href='https://fonts.googleapis.com/css?family=Montserrat&subset=latin,latin-ext', rel='stylesheet')
+        link(link href="https://fonts.googleapis.com/css?family=Raleway:600&subset=latin-ext" rel="stylesheet")
         link(href='https://fonts.googleapis.com/css?family=Roboto+Slab', rel='stylesheet')
         link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
         script(src='https://use.fontawesome.com/ce2707d4e5.js')
@@ -111,7 +111,9 @@ html(lang='en')
                     .col-lg-4
                         | PKPS Szczecin © #{new Date().getFullYear()}
                     .col-lg-4.text-center
-                        p#views Liczba odwiedzin: 
-                        p#online Aktywni użytkownicy: 
+                        p Liczba odwiedzin: 
+                            span#views
+                        p Aktywni użytkownicy: 
+                            span#online
                     .col-lg-4.text-right
                         | Design i wykonanie s-cuer ©
