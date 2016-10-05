@@ -1,10 +1,8 @@
 extends base
 block vars
     - var title = "Strona główna"
-block head-bottom
-    script(type='text/javascript', src='/static/js/home.js', async='')
 block body
-    .hello-section
+    .hello-section.container-fluid
         .row
             .col-lg-12
                 .page-header.text-center
@@ -72,3 +70,13 @@ block body
                     | Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     | Duis a venenatis enim. Aenean interdum in metus eget ornare. Quisque nec vestibulum ipsum.
                     | Aenean at convallis nisi, eu bibendum felis. Lorem ipsum dolor sit amet, consectetur
+        .row.gap
+        .row.statut.shadow#statut
+            .col-lg-6.home-description
+                .vertical-center
+                    | Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    | Duis a venenatis enim. Aenean interdum in metus eget ornare. Quisque nec vestibulum ipsum.
+                    | Aenean at convallis nisi, eu bibendum felis. Lorem ipsum dolor sit amet, consectetur
+            .col-lg-6.statut-img
+                .vertical-center
+                    h1.bolder.roboto-font STATUT

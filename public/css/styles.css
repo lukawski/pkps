@@ -41,9 +41,8 @@ html {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     background: rgb(232, 249, 255);
-    color: rgb(26, 26, 26);
     padding-top: 70px;
     margin-bottom: 50px
 }
@@ -113,6 +112,10 @@ body {
 
 .text-right {
     text-align: right;
+}
+
+.text-justif {
+    text-align: justify;
 }
 
 .bolder {
@@ -212,7 +215,7 @@ body {
 }
 
 .history-img {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://hd.unsplash.com/photo-1446421728091-d32c69806a8e");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/img/history.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -221,6 +224,14 @@ body {
 
 .helping-img {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/img/help.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.statut-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/img/statut.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
