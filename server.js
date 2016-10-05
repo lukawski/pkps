@@ -45,6 +45,11 @@ router.route('/contact')
     //Sending mail, will do later
 });
 
+router.route('/departments')
+.get(function(req, res) {
+   res.render('departments.pug') ;
+});
+
 app.use('/', router);
 
 // Server
