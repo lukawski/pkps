@@ -42,9 +42,17 @@ html {
 
 body {
     font-family: 'Raleway', sans-serif;
-    background: rgb(218, 238, 255);
+    background: #FFFFFF;
     padding-top: 70px;
-    padding-bottom: 6rem;
+    padding-bottom: 8rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #2c4254;
+}
+
+.white {
+    color: #FFFFFF;
 }
 
 .footer {
@@ -52,7 +60,7 @@ body {
     bottom: 0;
     width: 100%;
     padding: 1rem 0 1rem 0;
-    background: rgb(255, 255, 255);
+    background: #CAE4FD;
     box-sizing: border-box;
 }
 
@@ -127,7 +135,8 @@ body {
     -moz-box-shadow: 0px 5px 13px 1px rgba(168,168,168,0.8);
     box-shadow: 0px 5px 13px 1px rgba(168,168,168,0.8);
     background-image: none;
-    background-color: rgb(255, 255, 255);
+    background-color: #CAE4FD;
+    border-color: #CAE4FD;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -194,8 +203,10 @@ body {
 }
 
 .home-description {
-    background-color: rgb(137, 178, 244);
+    background-color: #63A8EC;
     text-align: justify;
+    color: #FFFFFF;
+    font-size: 1.143em;
 }
 
 .finanse-img {
@@ -239,7 +250,7 @@ body {
 }
 
 .gap {
-    background: rgb(218, 238, 255);
+    background: #FFFFFF;
     min-height: 50px;
 }
 
@@ -288,4 +299,32 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+}
+
+#tabs {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.tab-pane {
+    min-height: 50%;
+    padding: 15px;
+    font-size: 1.143em;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus {
+    background: #4894DE;
+}
+
+.programs-link:link {
+    color: rgb(0, 0, 0);
+}
+
+.programs-link:visited {
+    color: rgb(0, 0, 0);
+}
+
+.programs-link:hover {
+    color: rgb(38, 38, 38);
+    text-decoration: none;
 }

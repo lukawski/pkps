@@ -1,0 +1,33 @@
+extend base
+block vars
+    - var title = "Realizowane programy"
+block body
+    .container-fluid
+        .row
+            .col-lg-12
+                h1 Poniżej znajdą Państwo spis programów przez nas realizowanych.
+        ul.nav.nav-pills.nav-justified#tabs
+            li.active(role='presentation')
+                a(href='#ums' aria-controls="home" role="tab" data-toggle="tab") Urząd Miasta Szczecin
+            li(role='presentation')
+                a(href='#minister' aria-controls="home" role="tab" data-toggle="tab") Minister Rodziny, Rracy i Polityki Społecznej
+            li(role='presentation')
+                a(href='#uws' aria-controls="home" role="tab" data-toggle="tab") Urząd Wojewódzki Szczecin
+                
+        .tab-content.shadow-tab
+            .tab-pane.active.fade.in#ums(role='tabpanel')
+                | Lorem ipsum dolor sit amet, consectsdgsdgelis. Lorem ipsum dolor sit amet, consectetur
+            .tab-pane.fade#minister(role='tabpanel')
+                | Lorem ipsum dolor sit amet, consectesafasfastur adipiscing elit.
+                | Duis a venenatis enim. Aenean interdum in metus eget ornare. Quisque nec vestibulum ipsum.
+                | Aenean at convallis nisi, eu bibendum felis. Lorem ipsum dolor sit amet, consectetur
+            .tab-pane.fade#uws(role='tabpanel')
+                | Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                | Duis a venenatis enim. Aeneansdgsdgdsm in metus eget ornare. Quisque nec vestibulum ipsum.
+                | Aenean at convallis nisi, eu bibendum felis. Lorem ipsum dolor sit amet, consectetur
+        .row
+            .col-lg-12
+                h1 W razie pytań lub wątpliwości skontaktuj się z nami za pomocą
+                    a.programs-link(href="/contact")  formularza 
+                    | bądź napisz do nas
+                    a.programs-link(href="mailto:pkps2@tlen.pl")  bezpośrednio.
