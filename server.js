@@ -55,6 +55,11 @@ router.route('/programs')
     res.render('programs.pug');
 });
 
+router.route('/actions')
+.get(function(req, res) {
+   res.render('actions.pug');
+});
+
 app.use('/', router);
 
 // Server
