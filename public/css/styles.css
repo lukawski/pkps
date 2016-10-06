@@ -243,6 +243,10 @@ body {
     min-height: 50px;
 }
 
+#dep-hello {
+    margin-top: -20px;
+}
+
 #cards {
     display: flex;
     box-sizing: border-box;
@@ -276,4 +280,12 @@ body {
     margin-bottom: 10px;
     border-bottom: 1px groove grey;
     padding-bottom: 10px;
+}
+
+.dep-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://hd.unsplash.com/photo-1431540015161-0bf868a2d407");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
