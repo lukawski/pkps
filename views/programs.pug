@@ -3,24 +3,22 @@ block vars
     - var title = "Realizowane programy"
 block body
     .container-fluid
-        ul.nav.nav-tabs
+        ul.nav.nav-tabs#tabs
             li.active(role='presentation')
-                a(href='#') Urząd Miasta Szczecin
+                a(href='#ums' aria-controls="home" role="tab" data-toggle="tab") Urząd Miasta Szczecin
             li(role='presentation')
-                a(href='#') Minister Rodziny, Rracy i Polityki Społecznej
+                a(href='#minister' aria-controls="home" role="tab" data-toggle="tab") Minister Rodziny, Rracy i Polityki Społecznej
             li(role='presentation')
-                a(href='#') Urząd Wojewódzki Szczecin
+                a(href='#uws' aria-controls="home" role="tab" data-toggle="tab") Urząd Wojewódzki Szczecin
                 
         .tab-content
             .tab-pane.active#ums(role='tabpanel')
-                | Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                | Duis a venenatis enim. Aenean interdum in metus eget ornare. Quisque nec vestibulum ipsum.
-                | Aenean at convallis nisi, eu bibendum felis. Lorem ipsum dolor sit amet, consectetur
+                | Lorem ipsum dolor sit amet, consectsdgsdgelis. Lorem ipsum dolor sit amet, consectetur
             .tab-pane#minister(role='tabpanel')
-                | Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                | Lorem ipsum dolor sit amet, consectesafasfastur adipiscing elit.
                 | Duis a venenatis enim. Aenean interdum in metus eget ornare. Quisque nec vestibulum ipsum.
                 | Aenean at convallis nisi, eu bibendum felis. Lorem ipsum dolor sit amet, consectetur
             .tab-pane#uws(role='tabpanel')
                 | Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                | Duis a venenatis enim. Aenean interdum in metus eget ornare. Quisque nec vestibulum ipsum.
+                | Duis a venenatis enim. Aeneansdgsdgdsm in metus eget ornare. Quisque nec vestibulum ipsum.
                 | Aenean at convallis nisi, eu bibendum felis. Lorem ipsum dolor sit amet, consectetur
