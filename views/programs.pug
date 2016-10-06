@@ -1,0 +1,26 @@
+extend base
+block vars
+    - var title = "Realizowane programy"
+block body
+    .container-fluid
+        ul.nav.nav-tabs
+            li.active(role='presentation')
+                a(href='#') Urząd Miasta Szczecin
+            li(role='presentation')
+                a(href='#') Minister Rodziny, Rracy i Polityki Społecznej
+            li(role='presentation')
+                a(href='#') Urząd Wojewódzki Szczecin
+                
+        .tab-content
+            .tab-pane.active#ums(role='tabpanel')
+                | Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                | Duis a venenatis enim. Aenean interdum in metus eget ornare. Quisque nec vestibulum ipsum.
+                | Aenean at convallis nisi, eu bibendum felis. Lorem ipsum dolor sit amet, consectetur
+            .tab-pane#minister(role='tabpanel')
+                | Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                | Duis a venenatis enim. Aenean interdum in metus eget ornare. Quisque nec vestibulum ipsum.
+                | Aenean at convallis nisi, eu bibendum felis. Lorem ipsum dolor sit amet, consectetur
+            .tab-pane#uws(role='tabpanel')
+                | Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                | Duis a venenatis enim. Aenean interdum in metus eget ornare. Quisque nec vestibulum ipsum.
+                | Aenean at convallis nisi, eu bibendum felis. Lorem ipsum dolor sit amet, consectetur
