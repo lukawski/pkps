@@ -18,9 +18,7 @@ html(lang='en')
         script(type='text/javascript', src='/static/js/socket.js')
         link(rel='stylesheet', href='/static/css/styles.css', type='text/css')
         script(type='text/javascript', src='/static/js/scroll.js', async='')
-        
         script(src="/static/js/js.cookie.js")
-        
         meta(name='viewport', content='width=device-width, initial-scale=1.0')
         title #{title} | PKPS Z.O. Szczecin
         block head-bottom
@@ -110,10 +108,12 @@ html(lang='en')
         block foot
             footer.footer
                 .container
-                    .col-lg-4
-                        | PKPS Szczecin © #{new Date().getFullYear()}
-                    .col-lg-4.text-center
-                        p Liczba odwiedzin: 
-                            span#views
-                    .col-lg-4.text-right
-                        | Design i wykonanie s-cuer ©
+                    .row
+                        .col-lg-6.col-md-6.col-sm-6.col-xs-6
+                            | PKPS Szczecin © #{new Date().getFullYear()}
+                        .col-lg-6.col-md-6.col-sm-6.col-xs-6.text-right
+                            p Liczba odwiedzin: 
+                                span#views
+                    .row
+                        .col-lg-12.col-md-12.col-sm-12
+                            | Design i wykonanie s-cuer ©

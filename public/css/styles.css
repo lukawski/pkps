@@ -44,16 +44,16 @@ body {
     font-family: 'Raleway', sans-serif;
     background: rgb(218, 238, 255);
     padding-top: 70px;
-    margin-bottom: 50px
+    padding-bottom: 6rem;
 }
 
 .footer {
     position: absolute;
     bottom: 0;
-    height: 60px;
     width: 100%;
+    padding: 1rem 0 1rem 0;
     background: rgb(255, 255, 255);
-    margin-top: 20px;
+    box-sizing: border-box;
 }
 
 .footer > .container > .col-lg-6 {
