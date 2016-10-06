@@ -194,7 +194,7 @@ body {
 }
 
 .home-description {
-    background-color: rgb(137, 178, 244);
+    background-color: rgb(138, 201, 254);
     text-align: justify;
 }
 
@@ -289,3 +289,25 @@ body {
     background-size: cover;
     color: white;
 }
+
+.tab-pane {
+    min-height: 50%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.shadow-tab {
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(5,4,5,1);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(5,4,5,1);
+    box-shadow: 0px 0px 3px 0px rgba(5,4,5,1);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus {
+    background: rgb(175, 219, 255);
+}
+
