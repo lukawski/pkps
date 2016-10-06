@@ -18,6 +18,9 @@ html(lang='en')
         script(type='text/javascript', src='/static/js/socket.js')
         link(rel='stylesheet', href='/static/css/styles.css', type='text/css')
         script(type='text/javascript', src='/static/js/scroll.js', async='')
+        
+        script(src="/static/js/js.cookie.js")
+        
         meta(name='viewport', content='width=device-width, initial-scale=1.0')
         title #{title} | PKPS Z.O. Szczecin
         block head-bottom
@@ -112,7 +115,5 @@ html(lang='en')
                     .col-lg-4.text-center
                         p Liczba odwiedzin: 
                             span#views
-                        p Aktywni użytkownicy: 
-                            span#online
                     .col-lg-4.text-right
                         | Design i wykonanie s-cuer ©

@@ -20,12 +20,12 @@ port = process.env.PORT || 3000;
 
 // Socket
 io.on('connection', function(socket) {
-    io.emit('views', ++counter.views);
-    io.emit('online', ++counter.online);
-
-    socket.on('disconnect', function() {
-        io.emit('online', --counter.online);
+    io.emit('views', counter.views);
+    
+    socket.on('addView', function() {
+        io.emit('views', ++counter.views);
     });
+
 });
 
 // Router
@@ -62,14 +62,12 @@ http.listen(port, function() {
             fs.readFile(file, 'utf8', function(e, data) {
                 if(e) throw err;
                 counter = {
-                    views: JSON.parse(data).views,
-                    online: 0
+                    views: JSON.parse(data).views
                 };
             });
         } else {
             counter = {
-                views: 0,
-                online: 0
+                views: 0
             };
         }
     });
