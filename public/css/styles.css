@@ -270,6 +270,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: 0.3s;
     width: 280px;
     margin: 50px;
+    background: #63A8EC;
 }
 
 .card:hover {
@@ -279,12 +280,10 @@ h1, h2, h3, h4, h5, h6 {
 .card-title {
     text-align: center;
     padding: 15px;
-    background: white;
 }
 
 .card-content {
     padding: 15px;
-    background: white;
 }
 
 .dep-descr {
