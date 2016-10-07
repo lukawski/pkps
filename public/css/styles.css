@@ -35,6 +35,51 @@
     }
 }
 
+@media screen and (max-width: 768px){
+    .footer {
+        font-size: 0.85em;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .hide-ph {
+        display: none;
+    }
+    .zarzad, .helping, .statut {
+        display: -webkit-flex;
+        display: flex;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+    }
+    
+    .zarzad div, .helping div, .statut div {
+        min-width: 100%;
+    }
+    
+    div.first {
+        -webkit-order: 1;
+        order: 1;
+    }
+    
+    div.second {
+        -webkit-order: 2;
+        order: 2;
+    }
+}
+
+@media (min-width: 992px){
+    .hello-section {
+        height: 100vh;
+        min-height: 100vh;
+        position: relative;
+        margin-bottom: 0;
+    }
+}
+
+.hello-section {
+    margin-bottom: 5rem;
+}
+
 html {
     position: relative;
     min-height: 100%;
@@ -42,18 +87,26 @@ html {
 
 body {
     font-family: 'Raleway', sans-serif;
-    background: rgb(218, 238, 255);
+    background: #FFFFFF;
     padding-top: 70px;
-    margin-bottom: 50px
+    padding-bottom: 8rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #2c4254;
+}
+
+.white {
+    color: #FFFFFF;
 }
 
 .footer {
     position: absolute;
     bottom: 0;
-    height: 60px;
     width: 100%;
-    background: rgb(255, 255, 255);
-    margin-top: 20px;
+    padding: 1rem 0 1rem 0;
+    background: #CAE4FD;
+    box-sizing: border-box;
 }
 
 .footer > .container > .col-lg-6 {
@@ -123,11 +176,12 @@ body {
 }
 
 .navbar-default {
-    -webkit-box-shadow: 0px 5px 13px 1px rgba(168,168,168,0.8);
-    -moz-box-shadow: 0px 5px 13px 1px rgba(168,168,168,0.8);
-    box-shadow: 0px 5px 13px 1px rgba(168,168,168,0.8);
+    -webkit-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.2);
     background-image: none;
-    background-color: rgb(255, 255, 255);
+    background-color: #CAE4FD;
+    border-color: #CAE4FD;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -162,12 +216,7 @@ body {
     font-size: 1.143em;
 }
 
-.hello-section {
-    height: 100vh;
-    min-height: 100vh;
-    position: relative;
-    margin-bottom: 5%;
-}
+
 
 .scroll-down {
     -webkit-transform: translateY(100%);
@@ -194,8 +243,10 @@ body {
 }
 
 .home-description {
-    background-color: rgb(137, 178, 244);
+    background-color: #63A8EC;
     text-align: justify;
+    color: #FFFFFF;
+    font-size: 1.143em;
 }
 
 .finanse-img {
@@ -239,7 +290,7 @@ body {
 }
 
 .gap {
-    background: rgb(218, 238, 255);
+    background: #FFFFFF;
     min-height: 50px;
 }
 
@@ -259,6 +310,7 @@ body {
     transition: 0.3s;
     width: 280px;
     margin: 50px;
+    background: #63A8EC;
 }
 
 .card:hover {
@@ -268,12 +320,10 @@ body {
 .card-title {
     text-align: center;
     padding: 15px;
-    background: white;
 }
 
 .card-content {
     padding: 15px;
-    background: white;
 }
 
 .dep-descr {
@@ -288,4 +338,36 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+}
+
+#tabs {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.tab-pane {
+    min-height: 50%;
+    padding: 15px;
+    font-size: 1.143em;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus {
+    background: #4894DE;
+}
+
+.programs-link:link {
+    color: rgb(0, 0, 0);
+}
+
+.programs-link:visited {
+    color: rgb(0, 0, 0);
+}
+
+.programs-link:hover {
+    color: rgb(38, 38, 38);
+    text-decoration: none;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background-color: white;
 }

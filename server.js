@@ -47,7 +47,17 @@ router.route('/contact')
 
 router.route('/departments')
 .get(function(req, res) {
-   res.render('departments.pug') ;
+   res.render('departments.pug');
+});
+
+router.route('/programs')
+.get(function(req, res) {
+    res.render('programs.pug');
+});
+
+router.route('/actions')
+.get(function(req, res) {
+   res.render('actions.pug');
 });
 
 app.use('/', router);

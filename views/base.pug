@@ -8,7 +8,7 @@ html(lang='en')
         link(rel='icon', type='image/png', sizes='16x16', href='/static/favicon-16x16.png')
         link(rel='manifest', href='manifest.json')
         link(link href="https://fonts.googleapis.com/css?family=Raleway:600&subset=latin-ext" rel="stylesheet")
-        link(href='https://fonts.googleapis.com/css?family=Roboto+Slab', rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css?family=Roboto+Slab&subset=latin-ext', rel='stylesheet')
         link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
         script(src='https://use.fontawesome.com/ce2707d4e5.js')
         script(type='text/javascript', src='https://code.jquery.com/jquery-2.1.1.min.js')
@@ -18,9 +18,7 @@ html(lang='en')
         script(type='text/javascript', src='/static/js/socket.js')
         link(rel='stylesheet', href='/static/css/styles.css', type='text/css')
         script(type='text/javascript', src='/static/js/scroll.js', async='')
-        
         script(src="/static/js/js.cookie.js")
-        
         meta(name='viewport', content='width=device-width, initial-scale=1.0')
         title #{title} | PKPS Z.O. Szczecin
         block head-bottom
@@ -38,7 +36,7 @@ html(lang='en')
                 #navbar.collapse.navbar-collapse
                     ul.nav.navbar-nav.navbar-left
                         li.dropdown
-                            a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+                            a.dropdown-toggle(href='', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
                                 | O nas 
                                 span.caret
                             ul.dropdown-menu
@@ -58,20 +56,20 @@ html(lang='en')
                             a(href='/contact') Kontakt
                     ul.nav.navbar-nav.navbar-right
                         li.dropdown
-                            a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+                            a.dropdown-toggle(href='', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
                                 | Realizowane programy 
                                 span.caret
                             ul.dropdown-menu
                                 li
-                                    a(href='#') Urząd Miasta Szczecin
+                                    a(href='/programs#ums') Urząd Miasta Szczecin
                                 li
-                                    a(href='#') Minister rodziny, pracy i polityki społecznej
+                                    a(href='/programs#minister') Minister rodziny, pracy i polityki społecznej
                                 li
-                                    a(href='#') Urząd Wojewódzki Szczecin
+                                    a(href='/programs#uws') Urząd Wojewódzki Szczecin
                         li
                             a(href='#') Dodatkowe działania
                         li.dropdown
-                            a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+                            a.dropdown-toggle(href='', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
                                 | Placówki PKPS 
                                 span.caret
                             ul.dropdown-menu
@@ -98,22 +96,26 @@ html(lang='en')
                                 li
                                     a(href='/departments#zmgn') ZMG PKPS w Nowogardzie
                         li.dropdown
-                            a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+                            a.dropdown-toggle(href='', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
                                 | Pomoc żywnościowa 2014-2020 
                                 span.caret
                             ul.dropdown-menu
                                 li
-                                    a(href='#') Podprogram 2015
+                                    a(href='/actions#2015') Podprogram 2015
                                 li
-                                    a(href='#') Podprogram 2020
+                                    a(href='/actions#2020') Podprogram 2020
         block body
         block foot
             footer.footer
                 .container
-                    .col-lg-4
-                        | PKPS Szczecin © #{new Date().getFullYear()}
-                    .col-lg-4.text-center
-                        p Liczba odwiedzin: 
-                            span#views
-                    .col-lg-4.text-right
-                        | Design i wykonanie s-cuer ©
+                    .row
+                        .col-lg-6.col-md-6.col-sm-6.col-xs-6
+                            | PKPS Szczecin © #{new Date().getFullYear()}
+                            a.programs-link(href='/contact')  | Kontakt
+                        .col-lg-6.col-md-6.col-sm-6.col-xs-6.text-right
+                            p Liczba odwiedzin: 
+                                span#views
+                    .row
+                        .col-lg-12.col-md-12.col-sm-12
+                            | Design i wykonanie s-cuer © | 
+                            a.programs-link(href='#') Strona
