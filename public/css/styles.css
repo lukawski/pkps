@@ -35,6 +35,12 @@
     }
 }
 
+@media (max-width: 768px){
+    .footer {
+        font-size: 0.85em;
+    }
+}
+
 html {
     position: relative;
     min-height: 100%;
