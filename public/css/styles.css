@@ -42,6 +42,15 @@
     .hide-ph {
         display: none;
     }
+    .zarzad, .helping, .statut {
+        display: -webkit-flex;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .zarzad div, .helping div, .statut div {
+        min-width: 100%;
+    }
 }
 
 @media (min-width: 992px){
