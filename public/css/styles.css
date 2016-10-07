@@ -46,10 +46,21 @@
         display: -webkit-flex;
         display: flex;
         flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
     }
     
     .zarzad div, .helping div, .statut div {
         min-width: 100%;
+    }
+    
+    div.first {
+        -webkit-order: 1;
+        order: 1;
+    }
+    
+    div.second {
+        -webkit-order: 2;
+        order: 2;
     }
 }
 
