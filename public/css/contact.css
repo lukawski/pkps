@@ -2,8 +2,26 @@
     font-size: 40px;
 }
 
-.contact-option {
-    background: #63A8EC;
-    border-radius: 50px;
-    
+.contact-options {
+    margin: 50px 0 50px 0 ;
 }
+
+.contact-option {
+    background: rgb(99, 168, 236);
+    border-radius: 50%;
+    width: 320px;
+    height: 320px;
+    padding: 20px 0 20px 0;
+    margin: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.contact-option:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.phone, .email {
+    font-size: 30px;
+}
+
