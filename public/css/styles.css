@@ -327,3 +327,7 @@ h1, h2, h3, h4, h5, h6 {
     color: rgb(38, 38, 38);
     text-decoration: none;
 }
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background-color: white;
+}
