@@ -7,24 +7,12 @@ block head-bottom
 block body
     .container-fluid
         .row
-            .col-md-6.col-md-offset-3
-                .header.text-center
-                    | Skontaktuj się z nami
-        .row
-            .col-md-6.col-md-offset-3
-                form(method="POST").form-horizontal
-                    .form-group
-                        label(for="mail").control-label.col-sm-2 E-mail: 
-                        .col-sm-10
-                            input(type="text", name="mail").form-control
-                    .form-group
-                        label(for="name").control-label.col-sm-2 Imię:
-                        .col-sm-10
-                            input(type="text", name="name").form-control
-                    .form-group
-                        label(for="message").control-label.col-sm-2 Treść: 
-                        .col-sm-10
-                            textarea(name="message").form-control
-                    .form-group
-                        .col-sm-2.col-sm-offset-5
-                            button(type="submit").btn.btn-primary Wyślij
+            .col-md-6.col-md-offset-3.header.text-center
+                | Skontaktuj się z nami:
+        .row.contact-options#cards
+            .contact-option.text-center.phone
+                i.fa.fa-mobile.fa-5x
+                p +48 133 769 420
+            .contact-option.text-center.email
+                i.fa.fa-envelope.fa-5x
+                p dobrymail@elo.gov
