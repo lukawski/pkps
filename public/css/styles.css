@@ -35,6 +35,51 @@
     }
 }
 
+@media screen and (max-width: 768px){
+    .footer {
+        font-size: 0.85em;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .hide-ph {
+        display: none;
+    }
+    .zarzad, .helping, .statut {
+        display: -webkit-flex;
+        display: flex;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+    }
+    
+    .zarzad div, .helping div, .statut div {
+        min-width: 100%;
+    }
+    
+    div.first {
+        -webkit-order: 1;
+        order: 1;
+    }
+    
+    div.second {
+        -webkit-order: 2;
+        order: 2;
+    }
+}
+
+@media (min-width: 992px){
+    .hello-section {
+        height: 100vh;
+        min-height: 100vh;
+        position: relative;
+        margin-bottom: 0;
+    }
+}
+
+.hello-section {
+    margin-bottom: 5rem;
+}
+
 html {
     position: relative;
     min-height: 100%;
@@ -131,9 +176,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default {
-    -webkit-box-shadow: 0px 5px 13px 1px rgba(168,168,168,0.8);
-    -moz-box-shadow: 0px 5px 13px 1px rgba(168,168,168,0.8);
-    box-shadow: 0px 5px 13px 1px rgba(168,168,168,0.8);
+    -webkit-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.2);
     background-image: none;
     background-color: #CAE4FD;
     border-color: #CAE4FD;
@@ -171,12 +216,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.143em;
 }
 
-.hello-section {
-    height: 100vh;
-    min-height: 100vh;
-    position: relative;
-    margin-bottom: 5%;
-}
+
 
 .scroll-down {
     -webkit-transform: translateY(100%);
@@ -326,4 +366,8 @@ h1, h2, h3, h4, h5, h6 {
 .programs-link:hover {
     color: rgb(38, 38, 38);
     text-decoration: none;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background-color: white;
 }

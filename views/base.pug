@@ -8,7 +8,7 @@ html(lang='en')
         link(rel='icon', type='image/png', sizes='16x16', href='/static/favicon-16x16.png')
         link(rel='manifest', href='manifest.json')
         link(link href="https://fonts.googleapis.com/css?family=Raleway:600&subset=latin-ext" rel="stylesheet")
-        link(href='https://fonts.googleapis.com/css?family=Roboto+Slab', rel='stylesheet')
+        link(href='https://fonts.googleapis.com/css?family=Roboto+Slab&subset=latin-ext', rel='stylesheet')
         link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
         script(src='https://use.fontawesome.com/ce2707d4e5.js')
         script(type='text/javascript', src='https://code.jquery.com/jquery-2.1.1.min.js')
@@ -36,7 +36,7 @@ html(lang='en')
                 #navbar.collapse.navbar-collapse
                     ul.nav.navbar-nav.navbar-left
                         li.dropdown
-                            a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+                            a.dropdown-toggle(href='', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
                                 | O nas 
                                 span.caret
                             ul.dropdown-menu
@@ -56,7 +56,7 @@ html(lang='en')
                             a(href='/contact') Kontakt
                     ul.nav.navbar-nav.navbar-right
                         li.dropdown
-                            a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+                            a.dropdown-toggle(href='', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
                                 | Realizowane programy 
                                 span.caret
                             ul.dropdown-menu
@@ -69,7 +69,7 @@ html(lang='en')
                         li
                             a(href='#') Dodatkowe działania
                         li.dropdown
-                            a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+                            a.dropdown-toggle(href='', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
                                 | Placówki PKPS 
                                 span.caret
                             ul.dropdown-menu
@@ -96,7 +96,7 @@ html(lang='en')
                                 li
                                     a(href='/departments#zmgn') ZMG PKPS w Nowogardzie
                         li.dropdown
-                            a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
+                            a.dropdown-toggle(href='', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false')
                                 | Pomoc żywnościowa 2014-2020 
                                 span.caret
                             ul.dropdown-menu
@@ -111,9 +111,11 @@ html(lang='en')
                     .row
                         .col-lg-6.col-md-6.col-sm-6.col-xs-6
                             | PKPS Szczecin © #{new Date().getFullYear()}
+                            a.programs-link(href='/contact')  | Kontakt
                         .col-lg-6.col-md-6.col-sm-6.col-xs-6.text-right
                             p Liczba odwiedzin: 
                                 span#views
                     .row
                         .col-lg-12.col-md-12.col-sm-12
-                            | Design i wykonanie s-cuer ©
+                            | Design i wykonanie s-cuer © | 
+                            a.programs-link(href='#') Strona
