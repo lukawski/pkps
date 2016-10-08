@@ -1,6 +1,8 @@
 extend base
 block vars
     - var title = "Realizowane programy"
+block head-bottom
+    script(src='/static/js/pill.js')
 block body
     .container-fluid
         .row
@@ -27,7 +29,5 @@ block body
                 | Aenean at convallis nisi, eu bibendum felis. Lorem ipsum dolor sit amet, consectetur
         .row
             .col-lg-12
-                h1 W razie pytań lub wątpliwości skontaktuj się z nami za pomocą
-                    a.programs-link(href="/contact")  formularza 
-                    | bądź napisz do nas
-                    a.programs-link(href="mailto:pkps2@tlen.pl")  bezpośrednio.
+                h1 W razie pytań lub wątpliwości skontaktuj się z nami
+                    a.programs-link(href="/contact")  bezpośrednio.
