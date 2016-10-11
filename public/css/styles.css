@@ -45,14 +45,14 @@
     .hide-ph {
         display: none;
     }
-    .zarzad, .helping, .statut {
+    .zarzad, .helping, .statut, .dep-hello {
         display: -webkit-flex;
         display: flex;
         flex-wrap: wrap;
         -webkit-flex-wrap: wrap;
     }
     
-    .zarzad div, .helping div, .statut div {
+    .zarzad div, .helping div, .statut div, .dep-hello div{
         min-width: 100%;
         max-width: 100%;
     }
