@@ -54,6 +54,7 @@
     
     .zarzad div, .helping div, .statut div {
         min-width: 100%;
+        max-width: 100%;
     }
     
     div.first {
@@ -111,6 +112,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer > .container > .col-lg-6 {
     padding-top: 15px;
+}
+
+.scuer a {
+  border: 0;
+  text-decoration: none;
+  color: #012FA7;
+  font-weight: bold;
 }
 
 .roboto-font {
