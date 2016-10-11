@@ -21,7 +21,7 @@ port = process.env.PORT || 3000;
 // Socket
 io.on('connection', function(socket) {
     io.emit('views', counter.views);
-    
+
     socket.on('addView', function() {
         io.emit('views', ++counter.views);
     });
