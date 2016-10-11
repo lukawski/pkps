@@ -99,6 +99,12 @@ h1, h2, h3, h4, h5, h6 {
     color: #2c4254;
 }
 
+.logo {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+
 .white {
     color: #FFFFFF;
 }
@@ -234,9 +240,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .scroll-down {
-    -webkit-transform: translateY(100%);
-    -moz-transform: translateY(100%);
-    transform: translateY(80%);
+
 }
 
 .scroll-down-button:link {
