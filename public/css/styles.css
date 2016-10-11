@@ -45,15 +45,16 @@
     .hide-ph {
         display: none;
     }
-    .zarzad, .helping, .statut {
+    .zarzad, .helping, .statut, .dep-hello {
         display: -webkit-flex;
         display: flex;
         flex-wrap: wrap;
         -webkit-flex-wrap: wrap;
     }
     
-    .zarzad div, .helping div, .statut div {
+    .zarzad div, .helping div, .statut div, .dep-hello div{
         min-width: 100%;
+        max-width: 100%;
     }
     
     div.first {
@@ -111,6 +112,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer > .container > .col-lg-6 {
     padding-top: 15px;
+}
+
+.scuer a {
+  border: 0;
+  text-decoration: none;
+  color: #012FA7;
+  font-weight: bold;
 }
 
 .roboto-font {
@@ -338,7 +346,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .dep-img {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://hd.unsplash.com/photo-1431540015161-0bf868a2d407");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/img/dep.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
