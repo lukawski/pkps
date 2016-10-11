@@ -1,6 +1,7 @@
 $(function () {
     if (window.screen.width > 1085) {
         $('.dropdown')
+            .removeAttr('data-toggle')
             .mouseover(function(){
                 $(this).children('a').css('background-color', 'white')
                 $(this).children('.dropdown-menu').slideDown(200)
