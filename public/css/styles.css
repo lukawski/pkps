@@ -157,7 +157,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .scroll-down {
-    margin-top: 2em;
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    margin: 0;
+    transform: translateX(-50%);
 }
 
 .scroll-down-button:link {
