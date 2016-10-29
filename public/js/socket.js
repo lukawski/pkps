@@ -9,7 +9,6 @@ $(document).ready(function () {
   }
 
   socket.on('views', function (views) {
-    console.log('Views: ' + views)
     $('#views').text(views)
   })
 })
