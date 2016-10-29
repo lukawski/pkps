@@ -14,7 +14,12 @@ body {
     background-attachment: fixed;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #2c4254;
 }
 
@@ -37,15 +42,15 @@ h1, h2, h3, h4, h5, h6 {
     box-sizing: border-box;
 }
 
-.footer > .container > .col-lg-6 {
+.footer>.container>.col-lg-6 {
     padding-top: 15px;
 }
 
 .scuer a {
-  border: 0;
-  text-decoration: none;
-  color: #012FA7;
-  font-weight: bold;
+    border: 0;
+    text-decoration: none;
+    color: #012FA7;
+    font-weight: bold;
 }
 
 .roboto-font {
@@ -53,8 +58,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .vertical-center {
-  min-height: 30%;  /* Fallback for vh unit */
-  min-height: 30vh; /* You might also want to use
+    min-height: 30%;
+    /* Fallback for vh unit */
+    min-height: 30vh;
+    /* You might also want to use
                         'height' property instead.
                         
                         Note that for percentage values of
@@ -64,34 +71,30 @@ h1, h2, h3, h4, h5, h6 {
   
                         In this case the parent of '.vertical-center'
                         is the <body> element */
-
-  /* Make it a flex container */
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex; 
-  
-  /* Align the bootstrap's container vertically */
-    -webkit-box-align : center;
-  -webkit-align-items : center;
-       -moz-box-align : center;
-       -ms-flex-align : center;
-          align-items : center;
-  
-  /* In legacy web browsers such as Firefox 9
+    /* Make it a flex container */
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    /* Align the bootstrap's container vertically */
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /* In legacy web browsers such as Firefox 9
      we need to specify the width of the flex container */
-  width: 100%;
-  
-  /* Also 'margin: 0 auto' doesn't have any effect on flex items in such web browsers
+    width: 100%;
+    /* Also 'margin: 0 auto' doesn't have any effect on flex items in such web browsers
      hence the bootstrap's container won't be aligned to the center anymore.
   
      Therefore, we should use the following declarations to get it centered again */
-         -webkit-box-pack : center;
-            -moz-box-pack : center;
-            -ms-flex-pack : center;
-  -webkit-justify-content : center;
-          justify-content : center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
 }
 
 .text-center {
@@ -107,13 +110,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bolder {
-    font-weight: bold;    
+    font-weight: bold;
 }
 
 .navbar-default {
-    -webkit-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.2);
-    -moz-box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.2);
-    box-shadow: 0px 2px 5px 1px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.2);
     background-image: none;
     background-color: #CAE4FD;
     border-color: #CAE4FD;
@@ -136,7 +139,7 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 1px solid grey;
 }
 
-.page-header > h1 {
+.page-header>h1 {
     font-weight: bold;
     font-size: 3em;
 }
@@ -175,9 +178,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .shadow {
-    -webkit-box-shadow: 0px 0px 20px 0px rgba(5,4,5,1);
-    -moz-box-shadow: 0px 0px 20px 0px rgba(5,4,5,1);
-    box-shadow: 0px 0px 20px 0px rgba(5,4,5,1);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(5, 4, 5, 1);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(5, 4, 5, 1);
+    box-shadow: 0px 0px 20px 0px rgba(5, 4, 5, 1);
 }
 
 .home-description {
@@ -256,7 +259,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 280px;
     margin: 50px;
@@ -264,7 +267,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card-title {
@@ -301,7 +304,8 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.143em;
 }
 
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus {
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus {
     background: #4894DE;
 }
 
@@ -318,7 +322,9 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
 }
 
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
     background-color: white;
 }
 
@@ -338,11 +344,16 @@ caption {
     text-align: center;
 }
 
+.tab-content li, p {
+    padding-top: 10px;
+}
+
 @media (max-width: 1085px) {
     .navbar-header {
         float: none;
     }
-    .navbar-left,.navbar-right {
+    .navbar-left,
+    .navbar-right {
         float: none !important;
     }
     .navbar-toggle {
@@ -350,7 +361,7 @@ caption {
     }
     .navbar-collapse {
         border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
     }
     .navbar-fixed-top {
         top: 0;
@@ -370,48 +381,52 @@ caption {
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    .collapse.in{
-        display:block !important;
+    .collapse.in {
+        display: block !important;
     }
-    .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus {
+    .navbar-default .navbar-nav>.open>a,
+    .navbar-default .navbar-nav>.open>a:focus {
         background: none;
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .footer {
         font-size: 0.85em;
     }
 }
 
-@media screen and (max-width: 991px){
+@media screen and (max-width: 991px) {
     .hide-ph {
         display: none;
     }
-    .zarzad, .helping, .statut, .dep-hello {
+    .zarzad,
+    .helping,
+    .statut,
+    .dep-hello {
         display: -webkit-flex;
         display: flex;
         flex-wrap: wrap;
         -webkit-flex-wrap: wrap;
     }
-    
-    .zarzad div, .helping div, .statut div, .dep-hello div{
+    .zarzad div,
+    .helping div,
+    .statut div,
+    .dep-hello div {
         min-width: 100%;
         max-width: 100%;
     }
-    
     div.first {
         -webkit-order: 1;
         order: 1;
     }
-    
     div.second {
         -webkit-order: 2;
         order: 2;
     }
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
     .hello-section {
         height: 100vh;
         min-height: 100vh;
