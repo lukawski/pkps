@@ -7,7 +7,7 @@ block body
     .container-fluid
         .row
             .col-lg-12
-                h1 Poniżej znajdą Państwo spis programów przez nas realizowanych.
+                h1.programs-h1 Poniżej znajdą Państwo spis programów przez nas realizowanych.
         ul.nav.nav-pills.nav-justified#tabs
             li.active(role='presentation')
                 a(href='#ums' aria-controls="home" role="tab" data-toggle="tab") Urząd Miasta Szczecin
@@ -18,16 +18,67 @@ block body
                 
         .tab-content.shadow-tab
             .tab-pane.active.fade.in#ums(role='tabpanel')
-                | Lorem ipsum dolor sit amet, consectsdgsdgelis. Lorem ipsum dolor sit amet, consectetur
+                .row
+                    img.szczecin(src='/static/img/szczecin.png')
+                    .col-md-6
+                        h2 Wsparcie realizacji zadania publicznego finansowanego przez Gminę Miasto Szczecin pod nazwą:
+                        h3.text-justif "REHABILITACJA SPOŁECZNA OSÓB BEZDOMNYCH, ZAPEWNIENIE SCHRONIENIA OSOBOM POTRZEBUJĄCYM, POŁĄCZONE Z PROFILAKTYKĄ UZALEŻNIEŃ REALIZOWANE W SZCZECINIE DLA OSÓB BEZDOMNYCH”
+                    .col-md-4
+                        ul.list-group
+                            a.list-group-item
+                                h4.list-group-item-heading Czas trwania
+                                p.list-group-item-text Zadanie realizowane jest od 23 stycznia 2014r. do 31 grudnia 2016r.
+                            a.list-group-item
+                                h4.list-group-item-heading Miejsce
+                                p.list-group-item-text SCHRONISKO DLA BEZDOMNYCH MĘŻCZYZN „WILGA” UL. TCZEWSKA 32 SZCZECIN – WIELGOWO
+                .row
+                    img.szczecin(src='/static/img/szczecin.png')
+                    .col-md-6
+                        h2 Wsparcie realizacji zadania publicznego finansowanego przez Gminę Miasto Szczecin pod nazwą:
+                        h3.text-justif "WSPARCIE OSÓB W TRUDNEJ SYTUACJI ŻYCIOWEJ, WYBRANYMI ŚWIADCZENIAMI RZECZOWYMI W POSTACI OFEROWANIA NIEODPŁATNIE, ARTYKUŁÓW ŻYWNOŚCIOWYCH, ODZIEŻY, ARTYKUŁÓW HIGIENICZNYCH, MOŻLIWOŚCI KĄPIELI”
+                    .col-md-4
+                        ul.list-group
+                            a.list-group-item
+                                h4.list-group-item-heading Czas trwania
+                                p.list-group-item-text Zadanie realizowane jest od 23 marca 2014r.  do 31 grudnia 2016r.
+                            a.list-group-item
+                                h4.list-group-item-heading Miejsce
+                                p.list-group-item-text
+                                    ul
+                                        li Magazyn Główny PKPS w Szczecinie przy ul. Robotniczej 9U/1
+                                        li Punkt Pomocy PKPS w Szczecinie przy ul. Robotniczej 9U/2
+                                        li Bar Mleczny PKPS "Kogel – Mogel" w Szczecinie ul. Wyzwolenia 115
+                .row
+                    img.szczecin(src='/static/img/szczecin.png')
+                    .col-md-6
+                        h2 Wsparcie realizacji zadania publicznego finansowanego przez Gminę Miasto Szczecin pod nazwą:
+                        h3.text-justif "ZAPEWNIENIE GORĄCEGO JEDNODANIOWEGO POSIŁKU OSOBOM BEZDOMNYM PRZEBYWAJĄCYM W SCHRONISKACH NA TERENIE SZCZECINA ORAZ INNYM MIESZKAŃCOM MIASTA SZCZECIN, KTÓRZY DECYZJĄ MIEJSKIEGO OŚRODKA POMOCY RODZINIE ZOSTALI UPRAWNIENI DO OTRZYMANIA TAKIEJ POMOCY”
+                    .col-md-4
+                        ul.list-group
+                            a.list-group-item
+                                h4.list-group-item-heading Czas trwania
+                                p.list-group-item-text Zadanie realizowane jest od 01 stycznia 2016r. do 31 grudnia 2016r.
+                            a.list-group-item
+                                h4.list-group-item-heading Miejsce
+                                p.list-group-item-text Bar Mleczny PKPS "Kogel – Mogel" w Szczecinie ul. Wyzwolenia 115
             .tab-pane.fade.in#minister(role='tabpanel')
-                | Lorem ipsum dolor sit amet, consectesafasfastur adipiscing elit.
-                | Duis a venenatis enim. Aenean interdum in metus eget ornare. Quisque nec vestibulum ipsum.
-                | Aenean at convallis nisi, eu bibendum felis. Lorem ipsum dolor sit amet, consectetur
+                img.minister(src='/static/img/godlo.png')
+                h2.text-center „Program wspierający rozwiązywanie problemu bezdomności. Edycja 2016"
+                ul.list-group.minister-list
+                    a.list-group-item
+                        h4.list-group-item-heading Cel główny
+                        p.list-group-item-text CEL NR 3 „ZMIANA STANDARDÓW PLACÓWEK ŚWIADCZĄCYCH USŁUGI DLA OSÓB BEZDOMNYCH T.J. OGRZEWALNI, NOCLEGOWNI I SCHRONISKA DLA BEZDOMNYCH”
+                    a.list-group-item 
+                        h4.list-group-item-heading Czas trwania
+                        p.list-group-item-text Program realizowany jest od 06 czerwca 2016r. do 31 grudnia 2016r. 
+                    a.list-group-item 
+                        h4.list-group-item-heading Miejsce
+                        p.list-group-item-text SCHRONISKO DLA BEZDOMNYCH MĘŻCZYZN „WILGA” UL. TCZEWSKA 32 SZCZECIN – WIELGOWO
             .tab-pane.fade.in#uws(role='tabpanel')
                 | Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 | Duis a venenatis enim. Aeneansdgsdgdsm in metus eget ornare. Quisque nec vestibulum ipsum.
                 | Aenean at convallis nisi, eu bibendum felis. Lorem ipsum dolor sit amet, consectetur
         .row
             .col-lg-12
-                h1 W razie pytań lub wątpliwości skontaktuj się z nami
+                h2.programs-h2 W razie pytań lub wątpliwości skontaktuj się z nami
                     a.programs-link(href="/contact")  bezpośrednio.

@@ -322,6 +322,49 @@ h6 {
     text-decoration: none;
 }
 
+.programs-h1 {
+    margin-bottom: 50px;
+}
+
+.programs-h2 {
+    margin-top: 50px;
+}
+
+.minister {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.minister-list {
+    margin: 0 auto
+}
+
+.szczecin {
+    float: left;
+}
+
+#ums .row {
+    margin-bottom: 30px;
+    background: whitesmoke;
+    padding-top: 10px;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: all .3s;
+}
+
+#ums .row:hover {
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.list-group-item:last-child, .list-group-item:first-child {
+    border-radius: 0;
+}
+
 .navbar-default .navbar-nav>.open>a,
 .navbar-default .navbar-nav>.open>a:focus,
 .navbar-default .navbar-nav>.open>a:hover {
@@ -428,6 +471,9 @@ p {
         position: relative;
         margin-bottom: 0;
     }
+    .minister-list {
+    width: 40%;
+}
     .header-ac {
         width: 50%;
         margin: 0 auto;
