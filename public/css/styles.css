@@ -377,17 +377,12 @@ h6 {
     display: block;
 }
 
-.header-ac {
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
-}
-
 caption {
     text-align: center;
 }
 
-.tab-content li, p {
+.tab-content li,
+p {
     padding-top: 10px;
 }
 
@@ -479,4 +474,8 @@ caption {
     .minister-list {
     width: 40%;
 }
+    .header-ac {
+        width: 50%;
+        margin: 0 auto;
+    }
 }
