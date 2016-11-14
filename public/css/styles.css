@@ -322,6 +322,14 @@ h6 {
     text-decoration: none;
 }
 
+.minister {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+
 .navbar-default .navbar-nav>.open>a,
 .navbar-default .navbar-nav>.open>a:focus,
 .navbar-default .navbar-nav>.open>a:hover {
@@ -433,4 +441,7 @@ caption {
         position: relative;
         margin-bottom: 0;
     }
+    .minister-list {
+    width: 40%;
+}
 }
