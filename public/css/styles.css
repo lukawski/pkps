@@ -322,11 +322,27 @@ h6 {
     text-decoration: none;
 }
 
+.programs-h1 {
+    margin-bottom: 50px;
+}
+
+.programs-h2 {
+    margin-top: 50px;
+}
+
 .minister {
     display: block;
     margin: 0 auto;
     max-width: 100%;
     height: auto;
+}
+
+.minister-list {
+    margin: 0 auto
+}
+
+.szczecin {
+    float: left;
 }
 
 
