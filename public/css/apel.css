@@ -3,6 +3,20 @@
     margin-top: 11px;
 }
 
+.r-btn {
+  margin-bottom: 15px;
+}
+
+#english {
+  border-radius: 0;
+  background: #CAE4FD;
+  color: #333;
+}
+
+#english:focus {
+  outline: none;
+}
+
 .underline {
   text-decoration: underline;
 }
