@@ -341,10 +341,6 @@ h6 {
     margin: 0 auto
 }
 
-.szczecin {
-    float: left;
-}
-
 #ums .row {
     margin-bottom: 30px;
     background: white;
@@ -477,5 +473,11 @@ p {
     .header-ac {
         width: 50%;
         margin: 0 auto;
+    }
+}
+
+@media (min-width: 1160px) {
+    .szczecin {
+        float: left;
     }
 }
