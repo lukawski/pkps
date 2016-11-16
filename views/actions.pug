@@ -1,8 +1,193 @@
 extend base
 block vars
     - var title = "Pomoc żwynościowa"
+append head-bottom
+    script(src='static/js/pill.js')
 block body
     .container-fluid
         .row
-            .col-lg-6
-            .col-lg-6
+            .col-lg-2
+                ul.nav.nav-pills.nav-stacked
+                    li.active(role='presentation')
+                        a(href='#p2014' data-toggle="tab" aria-controls="home" role='tab') 2014
+                    li(role='presentation')
+                        a(href='#p2015' data-toggle="tab" aria-controls="home" role='tab') 2015
+                    li(role='presentation')
+                        a(href='#p2016' data-toggle="tab" aria-controls="home" role='tab') 2016
+            .col-lg-10
+                .tab-content
+                    .tab-pane.fade.in.active#p2014(role='tabpanel')
+                        h1.text-center WKRÓTCE
+                    .tab-pane.fade.in#p2015(role='tabpanel') 
+                        h1.text-center WKRÓTCE
+                    .tab-pane.fade.in#p2016(role='tabpanel')
+                        .header-img
+                            img(src='static/img/test.png')
+                        .tab-content
+                            | Zachodniopomorski Zarząd Okręgowy  Polskiego Komitetu Pomocy Społecznej w Szczecinie od sierpnia 2016 roku realizuje kolejną edycję: 
+                            .header-ac
+                                h4.text-center Programu Operacyjnego Pomoc Żywnościowa 2014 – 2020 współfinansowanego ze środków Unii Europejskiej w ramach Europejskiego Funduszu Pomocy Najbardziej Potrzebującym.
+                            | Celem ogólnym w ramach PO PŻ Podprogramu 2016  jest zapewnienie najuboższym mieszkańcom Polski pomocy żywnościowej oraz uczestnictwa w działaniach w ramach środków towarzyszących w okresie sierpień 2016 r. – czerwiec  2017 r.
+                            ol
+                                li Grupa osób najbardziej potrzebujących, do których będzie skierowana pomoc żywnościowa:
+                                    ul
+                                        li bezdomni
+                                        li niepełnosprawni
+                                        li migranci, osoby obcego pochodzenia, mniejszości narodowe (w tym społeczności marginalizowane, takie jak Romowie)
+                                        li pozostałe osoby odbiorców spełniające kryteria określone w pkt 11.
+                                li Kryteria kwalifikowalności osób do statusu osoby najbardziej potrzebującej
+                                    p Pomoc żywnościową w ramach PO PŻ mogą być objęte osoby i rodziny znajdujące się w trudnej sytuacji życiowej, spełniające kryteria określone w art. 7 ustawy o pomocy społecznej i których dochód nie przekracza 150% kryterium dochodowego uprawniającego do skorzystania z pomocy społecznej, tj 951 PLN dla osoby samotnie gospodarującej i 771 PLN dla osoby w rodzinie.
+                                li Sposób kwalifikowania osób do uczestnictwa w PO PŻ
+                                    p OPR i OPL  uczestniczące w PO PŻ współpracują z OPS w gminach w zakresie doboru odbiorców lub weryfikacji kwalifikowalności odbiorców końcowych.
+                                    ul
+                                        li OPS-y będą wydawać osobom skierowania do otrzymania pomocy żywnościowej lub przekazywać organizacjom listy osób zakwalifikowanych do pomocy z PO PŻ, pod warunkiem uzyskania zgody tych osób.
+                                        li OPR-OPL mogą w swoich siedzibach przyjmować oświadczenia od osób kwalifikujących się do przyznania pomocy żywnościowej korzystając z zał. Nr 5 część B. Oświadczenia wraz z wypełnionym skierowaniem zał. Nr 5 część A przekazywane są do właściwego ośrodka pomocy społecznej, który potwierdza kwalifikowalność do przyznania pomocy.  
+                                        li OPR-OPL mogą samodzielnie kwalifikować wyłącznie osoby bezdomne do udziału w PO PŻ na podstawie podpisanego przez osobę oświadczenia, stanowiącego załącznik nr 6 do wytycznych. 
+                                li FEAD 2014-2020 PODPROGRAM 2016 – LIMIT ROCZNY  PRODUKTÓW NA OSOBĘ W OKRESIE OD SIERPNIA 2016 DO CZERWCA 2017
+                                    .table-responsive
+                                        table.table
+                                            caption POMOC  ŻYWNOŚCIOWA  W  FORMIE  PACZEK  ŻYWNOŚCIOWYCH  POWINNA BYĆ  WYDAWANA  OSOBOM  NAJBARDZIEJ  POTRZEBUJĄCYM RÓWNOMIERNIE  W  TRAKCIE  CAŁEGO  OKRESU  DYSTRYBUCJI  W PODPROGRAMIE  2016
+                                            thead
+                                                tr
+                                                    th LP
+                                                    th Asortyment
+                                                    th Waga opakowania
+                                                    th Ilość sztuk dla 1 osoby przez 11 m-cy
+                                                    th Waga dla 1 osoby przez 11 m-cy
+                                            tbody
+                                                tr
+                                                    td 1
+                                                    td Makaron jajeczny
+                                                    td 0,5kg
+                                                    td 10
+                                                    td 5kg
+                                                tr
+                                                    td 2
+                                                    td Ryż biały
+                                                    td 1kg
+                                                    td 5
+                                                    td 5kg
+                                                tr
+                                                    td 3
+                                                    td Herbatniki
+                                                    td 0,2kg
+                                                    td 10
+                                                    td 2kg
+                                                tr
+                                                    td 4
+                                                    td Mleko UHT
+                                                    td 1l
+                                                    td 9
+                                                    td 9l
+                                                tr
+                                                    td 5
+                                                    td Ser podpuszczkowy dojrzewający
+                                                    td 0,4kg
+                                                    td 6
+                                                    td 2,40kg
+                                                tr
+                                                    td 6
+                                                    td Groszek z marchewką
+                                                    td 0,4kg
+                                                    td 8
+                                                    td 3,20kg
+                                                tr
+                                                    td 7
+                                                    td Fasola biała
+                                                    td 0,4kg
+                                                    td 8
+                                                    td 3,20kg
+                                                tr
+                                                    td 8
+                                                    td Koncentrat pomidorowy
+                                                    td 0,16kg
+                                                    td 8
+                                                    td 1,28kg
+                                                tr
+                                                    td 9
+                                                    td Powidła śliwkowe
+                                                    td 0,3kg
+                                                    td 4
+                                                    td 1,20kg
+                                                tr
+                                                    td 10
+                                                    td Gulasz wieprzowy z warzywami
+                                                    td 0,85kg
+                                                    td 5
+                                                    td 4,25kg
+                                                tr
+                                                    td 11
+                                                    td Filet z makreli w oleju
+                                                    td 0,17kg
+                                                    td 8
+                                                    td 1,36kg
+                                                tr
+                                                    td 12
+                                                    td Szynka drobiowa
+                                                    td 0,3kg
+                                                    td 9
+                                                    td 2,70kg
+                                                tr
+                                                    td 13
+                                                    td Cukier biały
+                                                    td 1kg
+                                                    td 4
+                                                    td 4kg
+                                                tr
+                                                    td 14
+                                                    td Olej rzepakowy
+                                                    td 1l
+                                                    td 4
+                                                    td 4l
+                                                tr
+                                                    td(colspan='4')
+                                                    td 48,59
+                                    h4.text-center DEFINICJA PACZKI ŻYWNOŚCIOWEJ DLA ODBIORCY KOŃCOWEGO 
+                                    h5.text-justif Minimum kilka (tj. co najmniej trzy) artykułów spożywczych z różnych grup towarowych wydanych jednorazowo a wchodzących w skład zestawu w Podprogramie 2016. Roczny limit pomocy żywnościowej wynosi 48,59 kg.
+                                    h4.text-center GRUPY TOWAROWE
+                                    ol 
+                                        li ARTYKUŁY SKROBIOWE
+                                            ul
+                                                li Makaron jajeczny    
+                                                li Ryz biały
+                                                li Herbatniki
+                                        li ARTYKUŁY MLECZNE
+                                            ul
+                                                li Mleko UHT
+                                                li Ser podpuszczkowy dojrzewający
+                                        li ARTYKUŁY WARZYWNE I OWOCOWE
+                                            ul
+                                                li Groszek z marchewką
+                                                li Koncentrat pomidorowy
+                                                li Powidła śliwkowe
+                                                li Fasola biała
+                                        li ARTYKUŁY MIĘSNE
+                                            ul
+                                                li Gulasz wieprzowy z warzywami
+                                                li Filet z makreli w oleju
+                                                li Szynka drobiowa
+                                        li TŁUSZCZE
+                                            ul
+                                                li Olej rzepakowy
+                                        li Cukier biały
+                                li Czas trwania programu od sierpnia 2016 do czerwca 2017.
+                                li Województwo Zachodniopomorskie  obsługuje Magazyn Centralny PKPS znajdujący się w Szczecinie przy ul. Robotniczej 9U/1.
+                                li Zarządy terenowe realizujące program to:
+                                    ul
+                                        li ZP PKPS Goleniów ul. Lipowa 8, 72-100 GOLENIÓW 
+                                        li ZP PKPS Stargard Osiedle Zachód  A5, 73-110 STARGARD
+                                        li ZP PKPS Pyrzyce ul. Stargardzka 34, 74-200 PYRZECE
+                                        li ZMG PKPS Nowogard ul. 700 - lecia 14, 72-200 NOWOGARD
+                                        li ZMG PKPS Barlinek ul. Strzelecka 29, 74-320 BARLINEK
+                                        li ZP PKPS Myślibórz ul. Łużycka 4,	74-300 MYSLIBÓRZ
+                                        li ZO PKPS Koszalin ul. Matejki 3, 75-540 KOSZALIN
+                                        li ZMG PKPS Darłowo ul. Wieniawskiego 13A, 66-150 DARŁOWO
+                                li Działania towarzyszące:
+                                    p Są to cykliczne działania oferowane wszystkim odbiorcom pomocy żywnościowej, które przyczynią się do włączenia społecznego tych osób. Maja na celu wzmocnienie samodzielności i kompetencji w zakresie prowadzenia gospodarstwa domowego:
+                                    ul
+                                        li warsztaty kulinarne dla różnych grup pokoleniowych z udziałem ekspertów kulinarnych. Kuchmistrzów, dietetyków pokazujące różne możliwości przygotowania potraw i wykorzystania art. spoz.,
+                                        li warsztaty dietetyczne i dot. zdrowego żywienia,
+                                        li programy edukacyjne mających na celu zapoznanie z zasadami zdrowego odżywiania i przeciwdziałania marnotrawieniu żywności, 
+                                        li warsztaty edukacyjne (nauka tworzenia, realizacji i kontroli realizacji budżetu domowego, ekonomicznego prowadzenia gospodarstwa domowego, z uwzględnieniem wszystkich finansowych i rzeczowych dochodów rodzin, w tym darów żywnościowych).
+                                li Planowana ilość odbiorców na woj. zachodniopomorskie – około 5 tysięcy osób.
+                                li Pierwsza dostawa dla PKPS  23 września – marchewka z groszkiem.
