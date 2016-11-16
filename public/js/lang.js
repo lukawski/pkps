@@ -19,7 +19,7 @@ $(function () {
       Bank Pekao SA Szczecin
     </p>
     <p class="text-center">
-      23 1240 3813 1111 0000 4375 5868
+      PL 23 1240 3813 1111 0000 4375 5868   lub  SWIFT PEKAO SA - PKOPPLPW
     </p>
     <p>
     For the third time, we want to repeat the “Christmas Bag full of Surprises” movement. Big thing for the past two years, has been the individual giving of the packages in person to families or single parents raising their kids. Last year, 5 amazing individuals gave away Christmas packages in person to families in need. Every present and package was delivered to children and their families on the 23rd &24th of December, 2015. 
@@ -42,7 +42,7 @@ $(function () {
     <p>Kontakt do organizatorów akcji – 91-433-45-04 lub 514-161-064.</p>
     <p class="underline">Na ten cel można również  dokonać dobrowolnych  wpłat  darowizn na  numer konta bankowego PKPS</p>
     <p>BANK PEKAO SA I ODDZIAŁ SZCZECIN</p>
-    <p class="underline"><strong>23 1240 3813 1111 0000 4375 5868</strong></p>
+    <p class="underline"><strong>PL 23 1240 3813 1111 0000 4375 5868   lub  SWIFT PEKAO SA - PKOPPLPW</strong></p>
     <p class="underline">Na wniosek darczyńcy jest możliwość zawarcia umowy darowizny finansowej.</p>
     <p class="text-center underline"> <strong>Po raz trzeci pragniemy powtórzyć akcję pod nazwą  </strong></p>
     <p class="text-center underline"> <strong>„Świąteczny  worek pełen niespodzianek”</strong></p>
