@@ -32,22 +32,22 @@ router.route('/')
     res.render('home.pug')
   })
 
-router.route('/contact')
+router.route('/kontakt')
   .get(function (req, res) {
     res.render('contact.pug')
   })
 
-router.route('/departments')
+router.route('/placowki')
   .get(function (req, res) {
     res.render('departments.pug')
   })
 
-router.route('/programs')
+router.route('/programy')
   .get(function (req, res) {
     res.render('programs.pug')
   })
 
-router.route('/actions')
+router.route('/akcje')
   .get(function (req, res) {
     res.render('actions.pug')
   })
