@@ -3,8 +3,13 @@ block vars
     - var title = "Możesz pomóc"
 block head-bottom
     link(rel='stylesheet', href='/static/css/apel.css', type='text/css')
+    script(src='/static/js/lang.js')
 block body
     .container
+        .row 
+          .col-sm-12
+            strong 
+              button.btn#english ENGLISH
         .row
             .col-sm-1
               img(src='/static/img/logo.png' alt='PKPS Logo' class='logo-apel')
@@ -20,12 +25,12 @@ block body
                 h5 NIP  851-01-09-361
                 h5 REGON  007023760-00480
                 h5 NR KONTA  23 1240 3813 1111 0000 4375 5868
-        .row
-          .col-md-12
-            p.text-right
-              strong Szczecin 08.11.2016r. 
-            h2.text-center.underline
+        .row#lang
+          p.text-right
+              strong Szczecin 08.11.2016r.
+          h2.text-center.underline
               strong APEL
+          .col-md-12  
             p 
               strong Sto paczek świątecznych dla dzieci z najuboższych szczecińskich rodzin chce  przygotować  Polski Komitet Pomocy Społecznej – Zarząd Okręgowy w Szczecinie - organizacja pożytku publicznego wpisana w Krajowym Rejestrze Sądowym o numerze KRS 0000041349.
             p Przedświąteczna akcja 
@@ -49,6 +54,4 @@ block body
             p W roku ubiegłym 5 darczyńców przekazało osobiście pięciu rodzinom (rodziny wielodzietne, matki samotnie wychowujące dzieci) świąteczne prezenty. Wszystkie prezenty i paczki zostały przekazane dzieciom 23 i 24 grudnia 2015r.  
             p Wystarczy skontaktować się z pracownikami biura  ZO PKPS w Szczecinie  – organizatorem tej  akcji  –  (tel. 91-433-45-04 lub 514-161-064),  którzy wskażą potrzeby swoich podopiecznych oraz za ich zgodą skontaktują z darczyńcami.
             p.text-right Z poważaniem
-            p.text-right dr Aleksandra Sander
-
-          
+            p.text-right dr Aleksandra Sander          
