@@ -1,6 +1,6 @@
 $(function () {
   var english = `
-    <h2 class="text-center underline><strong>APPEAL</strong></h2>
+    <h2 class="text-center underline"><strong>APPEAL</strong></h2>
     <p>
       I want to make 100 Christmas packages for Szczecin families in need. Polski  Komitet Pomocy Spolecznej – Zarzad  Okregowy in Szczecin- Organization registered in the country's court with the number KRS 0000041349. Called “Small Gift-Lots of Joy”, for the 49th time, has a long history of helping families in need. PKPS is counting on the help and good hearts of the people. We are extending the invitation to schools, daycares, businesses, governments and individuals who are willing to help.
     </p> 
@@ -28,9 +28,8 @@ $(function () {
   `
   $('#english').click(function () {
     $('#lang').fadeOut(function () {
-      $(this).empty(function () {
-        $(this).html(english).fadeIn()
-      })
+      $(this).empty()
+      $(this).html(english).fadeIn()
     }
     )
 })
