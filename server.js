@@ -32,7 +32,7 @@ router.route('/')
     res.render('home.pug')
   })
 
-router.route('/kontakt')
+router.route(/kontakt(.*)/)
   .get(function (req, res) {
     res.render('contact.pug')
   })
