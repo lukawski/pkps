@@ -2,7 +2,7 @@ $(function () {
   var templates = {
     english: `
     <p class="text-right"><strong>Szczecin 08.11.2016r.</strong></p>
-    <h2 class="text-center underline"><strong>APPEAL</strong></h2>
+    <h2 class="text-center underline"><strong>YOU CAN HELP</strong></h2>
     <p>
       I want to make 100 Christmas packages for Szczecin families in need. Polski  Komitet Pomocy Spolecznej – Zarzad  Okregowy in Szczecin- Organization registered in the country's court with the number KRS 0000041349. Called “Small Gift-Lots of Joy”, for the 49th time, has a long history of helping families in need. PKPS is counting on the help and good hearts of the people. We are extending the invitation to schools, daycares, businesses, governments and individuals who are willing to help.
     </p> 
@@ -32,7 +32,7 @@ $(function () {
     `,
     polish: `
     <p class="text-right"><strong>Szczecin 08.11.2016r.</strong></p>
-    <h2 class="text-center underline"><strong>APEL</strong></h2>
+    <h2 class="text-center underline"><strong>MOŻESZ POMÓC</strong></h2>
     <div class="col-md-12">
     <p> <strong>Sto paczek świątecznych dla dzieci z najuboższych szczecińskich rodzin chce  przygotować  Polski Komitet Pomocy Społecznej – Zarząd Okręgowy w Szczecinie - organizacja pożytku publicznego wpisana w Krajowym Rejestrze Sądowym o numerze KRS 0000041349.</strong></p>
     <p>Przedświąteczna akcja <strong>„Mały podarek - dużo radości"  </strong>prowadzona już po raz 49 i ma swoją bardzo długą historię. Darczyńcy nigdy nie zawiedli. PKPS liczy na pomoc i otwarte serca ludzi wrażliwych.</p>
