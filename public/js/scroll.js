@@ -19,7 +19,6 @@ $(function () {
             $('body, html').animate({
                 scrollTop: $(target).offset().top - $('#navbarFixed').height()
             }, 1000, function () {
-                window.location.hash = target
                 $('a[href=' + target + ' ]').tab('show')
             });
         }
