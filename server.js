@@ -4,15 +4,12 @@ var express = require('express'),
   app = express(),
   router = express.Router(),
   http = require('http').Server(app),
-  bodyParser = require('body-parser'),
   pug = require('pug'),
   io = require('socket.io')(http),
   fs = require('fs')
 
 // Express config
 app.set('view engine', 'pug')
-app.use(bodyParser.urlencoded({ extended: true }))
-app.use(bodyParser.json())
 app.use('/static', express.static('public'))
 
 global.port = process.env.PORT || 3000
