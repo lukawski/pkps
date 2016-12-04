@@ -54,6 +54,11 @@ router.route('/mozesz-pomoc')
     res.render('mozesz-pomoc.pug')
   })
 
+router.route('/dodatkowe-dzialania')
+  .get(function (req, res) {
+    res.render('addActions.pug')
+  })
+
 app.use('/', router)
 
 // Server
