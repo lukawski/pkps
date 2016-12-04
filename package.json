@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "build": "gulp",
     "test": "nodemon server.js",
     "start": "node server.js"
   },
@@ -22,5 +23,11 @@
     "pug": "^2.0.0-beta6",
     "socket.io": "^1.4.8"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-uglify": "^2.0.0"
+  }
 }

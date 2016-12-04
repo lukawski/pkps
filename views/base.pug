@@ -3,24 +3,26 @@ html(lang='en')
     block vars
     head
         block head-top
+        title #{title} | PKPS Z.O. Szczecin
         meta(charset='utf-8')
-        link(rel='apple-touch-icon', sizes='57x57', href='/static/img/apple-icon-57x57.png')
-        link(rel='apple-touch-icon', sizes='60x60', href='/static/img/apple-icon-60x60.png')
-        link(rel='apple-touch-icon', sizes='72x72', href='/static/img/apple-icon-72x72.png')
-        link(rel='apple-touch-icon', sizes='76x76', href='/static/img/apple-icon-76x76.png')
-        link(rel='apple-touch-icon', sizes='114x114', href='/static/img/apple-icon-114x114.png')
-        link(rel='apple-touch-icon', sizes='120x120', href='/static/img/apple-icon-120x120.png')
-        link(rel='apple-touch-icon', sizes='144x144', href='/static/img/apple-icon-144x144.png')
-        link(rel='apple-touch-icon', sizes='152x152', href='/static/img/apple-icon-152x152.png')
-        link(rel='apple-touch-icon', sizes='180x180', href='/static/img/apple-icon-180x180.png')
-        link(rel='icon', type='image/png', sizes='192x192', href='/static/img/android-icon-192x192.png')
-        link(rel='icon', type='image/png', sizes='32x32', href='/static/img/favicon-32x32.png')
-        link(rel='icon', type='image/png', sizes='96x96', href='/static/img/favicon-96x96.png')
-        link(rel='icon', type='image/png', sizes='16x16', href='/static/img/favicon-16x16.png')
-        link(rel='manifest', href='/static/img/manifest.json')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        link(rel='apple-touch-icon', sizes='57x57', href='/static/apple-icon-57x57.png')
+        link(rel='apple-touch-icon', sizes='60x60', href='/static/apple-icon-60x60.png')
+        link(rel='apple-touch-icon', sizes='72x72', href='/static/apple-icon-72x72.png')
+        link(rel='apple-touch-icon', sizes='76x76', href='/static/apple-icon-76x76.png')
+        link(rel='apple-touch-icon', sizes='114x114', href='/static/apple-icon-114x114.png')
+        link(rel='apple-touch-icon', sizes='120x120', href='/static/apple-icon-120x120.png')
+        link(rel='apple-touch-icon', sizes='144x144', href='/static/apple-icon-144x144.png')
+        link(rel='apple-touch-icon', sizes='152x152', href='/static/apple-icon-152x152.png')
+        link(rel='apple-touch-icon', sizes='180x180', href='/static/apple-icon-180x180.png')
+        link(rel='icon', type='image/png', sizes='192x192', href='/static/android-icon-192x192.png')
+        link(rel='icon', type='image/png', sizes='32x32', href='/static/favicon-32x32.png')
+        link(rel='icon', type='image/png', sizes='96x96', href='/static/favicon-96x96.png')
+        link(rel='icon', type='image/png', sizes='16x16', href='/static/favicon-16x16.png')
+        link(rel='manifest', href='/static/manifest.json')
         meta(name='msapplication-TileColor', content='#ffffff')
-        meta(name='msapplication-TileImage', content='/static/img/ms-icon-144x144.png')
-        meta(name='theme-color', content='#ffffff')
+        meta(name='msapplication-TileImage', content='/static/ms-icon-144x144.png')
+        meta(name='theme-color', content='#CAE4FD')
         link(link href="https://fonts.googleapis.com/css?family=Raleway:600,800&subset=latin-ext" rel="stylesheet")
         link(href='https://fonts.googleapis.com/css?family=Roboto+Slab&subset=latin-ext', rel='stylesheet')
         link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
@@ -29,12 +31,8 @@ html(lang='en')
         script(src='/socket.io/socket.io.js')
         link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
         script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', integrity='sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa', crossorigin='anonymous')
-        script(type='text/javascript', src='/static/js/socket.js')
-        link(rel='stylesheet', href='/static/css/styles.css', type='text/css')
-        script(type='text/javascript', src='/static/js/scroll.js', async='')
-        script(src="/static/js/js.cookie.js")
-        meta(name='viewport', content='width=device-width, initial-scale=1.0')
-        title #{title} | PKPS Z.O. Szczecin
+        link(rel='stylesheet', href='/static/bundle.css', type='text/css')
+        script(src="/static/bundle.js")
         script.
           (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -61,7 +59,7 @@ html(lang='en')
                         span.icon-bar
                         span.icon-bar
                     a.navbar-brand(href='/#hello')
-                        img(alt='PKPS Szczecin', src='/static/img/logo.png' style='width: 32px')
+                        img(alt='PKPS Szczecin', src='/static/logo.png' style='width: 32px')
                 #navbar.collapse.navbar-collapse
                     ul.nav.navbar-nav.navbar-left
                         li.dropdown
