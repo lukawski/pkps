@@ -1,6 +1,7 @@
 global.counter = {}
 
-var express = require('express'),
+var compression = require('compression'),
+  express = require('express'),
   app = express(),
   router = express.Router(),
   http = require('http').Server(app),
@@ -8,6 +9,7 @@ var express = require('express'),
   io = require('socket.io')(http),
   fs = require('fs')
 
+app.use(compression())
 // Express config
 app.set('view engine', 'pug')
 app.use('/static', express.static('dist'))
