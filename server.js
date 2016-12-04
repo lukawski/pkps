@@ -10,7 +10,7 @@ var express = require('express'),
 
 // Express config
 app.set('view engine', 'pug')
-app.use('/static', express.static('public'))
+app.use('/static', express.static('dist'))
 
 global.port = process.env.PORT || 3000
 
