@@ -35,6 +35,21 @@ html(lang='en')
         script(src="/static/js/js.cookie.js")
         meta(name='viewport', content='width=device-width, initial-scale=1.0')
         title #{title} | PKPS Z.O. Szczecin
+        script.
+          (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push (arguments)
+              }, i[r].l = 1 * new Date ();
+            a = s.createElement (o),
+              m = s.getElementsByTagName (o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore (a, m)
+          }) (window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+          ga ('create', 'UA-85832504-2', 'auto');
+          ga ('send', 'pageview');
         block head-bottom
     body#hello
         nav.navbar.navbar-default.navbar-fixed-top#navbarFixed
@@ -90,15 +105,15 @@ html(lang='en')
                                 span.caret
                             ul.dropdown-menu
                                 li
-                                    a(href='/placowki#bar') Bar Mleczny "Kogel-Mogel"
+                                    a(href='/placowki#bar') Bar Mleczny PKPS "Kogel-Mogel"
                                 li
-                                    a(href='/placowki#schronisko') Schronisko Dla Bezdomnych Mężczyzn "Wigilia"
+                                    a(href='/placowki#schronisko') Schronisko Dla Bezdomnych Mężczyzn "Wilga"
                                 li
                                     a(href='/placowki#bpo') Biuro Porad Obywatelskich w Szczecinie
                                 li
                                     a(href='/placowki#punkt') Punkt Pomocy PKPS Szczecin
                                 li
-                                    a(href='/placowki#magazyn') Magazyn Główny PKPS
+                                    a(href='/placowki#magazyn') Magazyn Główny Żywności PKPS Szczecin
                                 li
                                     a(href='/placowki#zps') ZP PKPS w Stargardzie
                                 li
@@ -139,11 +154,3 @@ html(lang='en')
                             |   przez 
                             span.scuer
                                 a(href='http://scuer.co') Scuer
-        script.
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-            ga('create', 'UA-85832504-2', 'auto');
-            ga('send', 'pageview');
