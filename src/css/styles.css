@@ -191,7 +191,7 @@ h6 {
 }
 
 .finanse-img {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/img/money.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/money.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -199,7 +199,7 @@ h6 {
 }
 
 .zarzad-img {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/img/board.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/board.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -207,7 +207,7 @@ h6 {
 }
 
 .history-img {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/img/history.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/history.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -215,7 +215,7 @@ h6 {
 }
 
 .helping-img {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/img/help.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/help.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -235,7 +235,7 @@ h6 {
 }
 
 .statut-img {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/img/statut.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/statut.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -286,7 +286,7 @@ h6 {
 }
 
 .dep-img {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/img/dep.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/dep.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

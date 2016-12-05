@@ -1,6 +1,7 @@
 global.counter = {}
 
-var express = require('express'),
+var compression = require('compression'),
+  express = require('express'),
   app = express(),
   router = express.Router(),
   http = require('http').Server(app),
@@ -8,9 +9,10 @@ var express = require('express'),
   io = require('socket.io')(http),
   fs = require('fs')
 
+app.use(compression())
 // Express config
 app.set('view engine', 'pug')
-app.use('/static', express.static('public'))
+app.use('/static', express.static('dist'))
 
 global.port = process.env.PORT || 3000
 
@@ -52,6 +54,11 @@ router.route('/akcje')
 router.route('/mozesz-pomoc')
   .get(function (req, res) {
     res.render('mozesz-pomoc.pug')
+  })
+
+router.route('/dodatkowe-dzialania')
+  .get(function (req, res) {
+    res.render('addActions.pug')
   })
 
 app.use('/', router)
