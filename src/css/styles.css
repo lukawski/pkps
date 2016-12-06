@@ -382,6 +382,15 @@ p {
     padding-top: 10px;
 }
 
+.data-boards  {
+    margin-top: 20px;
+}
+
+.data-boards h4, p {
+    padding: 0;
+    margin: 0;
+}
+
 @media (max-width: 1085px) {
     .navbar-header {
         float: none;

@@ -23,3 +23,8 @@ gulp.task('img', function () {
     .pipe(imagemin())
     .pipe(gulp.dest('./dist'))
 })
+
+gulp.task('watch', ['default'], function () {
+  gulp.watch('./src/js/*.js', ['js'])
+  gulp.watch('./src/css/*.css', ['default'])
+})
