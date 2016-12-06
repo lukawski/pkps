@@ -375,11 +375,25 @@ h6 {
 
 caption {
     text-align: center;
+    color: #2c4254;
+}
+
+.th-2015 {
+    background: #F79646;
 }
 
 .tab-content li,
 p {
     padding-top: 10px;
+}
+
+.data-boards  {
+    margin-top: 20px;
+}
+
+.data-boards h4, .data-boards p {
+    padding: 0;
+    margin: 0;
 }
 
 @media (max-width: 1085px) {
