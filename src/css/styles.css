@@ -495,3 +495,9 @@ p {
         float: left;
     }
 }
+
+@media (min-width: 768px) {
+    .views {
+        text-align: right;
+    }
+}

@@ -4,7 +4,11 @@ var cleanCSS = require('gulp-clean-css')
 var imagemin = require('gulp-imagemin');
 var concat = require('gulp-concat')
 
-gulp.task('default', ['js', 'img'], function () {
+gulp.task('default', ['js', 'img', 'css'], function () {
+  return true
+})
+
+gulp.task('css', function () {
   return gulp.src('./src/css/*.css')
     .pipe(concat('bundle.css'))
     .pipe(cleanCSS({compatibility: 'ie8'}))
@@ -24,7 +28,7 @@ gulp.task('img', function () {
     .pipe(gulp.dest('./dist'))
 })
 
-gulp.task('watch', ['default'], function () {
+gulp.task('watch', ['js', 'css'], function () {
   gulp.watch('./src/js/*.js', ['js'])
-  gulp.watch('./src/css/*.css', ['default'])
+  gulp.watch('./src/css/*.css', ['css'])
 })
