@@ -1,0 +1,14 @@
+.views {
+    font-size: 1.2em;
+}
+
+#views {
+    font-weight: 800;
+    letter-spacing: 5px;
+    background: #9dcefb;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;;
+    color: #404040;
+    padding: 1px 0 1px 5px;
+}
