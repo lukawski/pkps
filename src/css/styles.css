@@ -396,6 +396,14 @@ p {
     margin: 0;
 }
 
+.invite-r {
+    margin-bottom: 10px;
+}
+
+.invite {
+    max-width: 100%;
+}
+
 @media (max-width: 1085px) {
     .navbar-header {
         float: none;
