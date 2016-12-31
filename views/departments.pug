@@ -21,27 +21,35 @@ block body
             .card-content
                 .container-fluid
                     .row.dep-descr.text-justif
-                        .col-xs-12 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        .col-xs-12 
+                            | Bar, dla klientów z zewnątrz, czynny jest:
+                            ul
+                                li od poniedziałku do piątku w godz. od 9,00 do 17,00
+                                li gorące posiłki  wydawane dla klientów  MOPR wydawane są od poniedziałku do piątku w godz. od 11,00 do 15,00
+                                li w soboty w godz. od 11,00 do 14,00
+                                li w niedzielę w godz. od 11,00 do 13,00
+
                     .row
                         .col-xs-6 Adres:
-                        .col-xs-6.text-right asdasd
+                        .col-xs-6.text-right ul. Wyzwolenia 115 71-432 Szczecin
                     .row
                         .col-xs-6 Telefon:
-                        .col-xs-6.text-right 91-433-45-04
+                        .col-xs-6.text-right 91 422-41-22
+                    .row
+                        .col-xs-6 Email:
+                        .col-xs-6.text-right pkps2@onet.pl
         .card#schronisko
             .card-title.bolder.roboto-font 
-                h4.bolder.roboto-font Schronisko dla bezdomnych "WIGILIA" w Szczecinie
+                h4.bolder.roboto-font Schronisko dla bezdomnych "WILGA" w Szczecinie
             img(src='static/bpo.jpg' style='width: 100%; height: auto;')
             .card-content
                 .container-fluid
-                    .row.dep-descr.text-justif
-                        .col-xs-12 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     .row
                         .col-xs-6 Adres:
-                        .col-xs-6.text-right asdasd
+                        .col-xs-6.text-right ul. Tczewska 32 70-850 Szczecin
                     .row
                         .col-xs-6 Telefon:
-                        .col-xs-6.text-right 91-433-45-04
+                        .col-xs-6.text-right  91 420-19-15
         .card#bpo
             .card-title.bolder.roboto-font
                 h4.bolder.roboto-font Biuro Porad Obywatelskich w Szczecinie
@@ -49,41 +57,43 @@ block body
             .card-content
                 .container-fluid
                     .row.dep-descr.text-justif
-                        .col-xs-12 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        .col-xs-12 Biuro czynne od poniedziałku do piątku w godz. od 10,00 do 14,00.
                     .row
                         .col-xs-6 Adres:
-                        .col-xs-6.text-right asdasd
+                        .col-xs-6.text-right ul. Dąbrowskiego 22/24 70-100 Szczecin
                     .row
                         .col-xs-6 Telefon:
-                        .col-xs-6.text-right 91-433-45-04
+                        .col-xs-6.text-right 91 852-53-56
+                    .row
+                        .col-xs-4 Email:
+                        .col-xs-8.text-right bpo.pkps.szczecin@gmail.com
+                    .row
+                        .col-xs-6 Strona:
+                        .col-xs-6.text-right 
+                            a(href='www.bpo.szczecin.pl' style='color: #275d8b;') www.bpo.szczecin.pl
         .card#punkt
             .card-title.bolder.roboto-font 
-                h4.bolder.roboto-fontPunkt Pomocy PKPS w Szczecinie
+                h4.bolder.roboto-font Punkt Pomocy PKPS w Szczecinie
             img(src='static/bpo.jpg' style='width: 100%; height: auto;')
             .card-content
                 .container-fluid
                     .row.dep-descr.text-justif
-                        .col-xs-12 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        .col-xs-12 Punkt czynny jest od poniedziałku do piątku w godz. od 10,00 do 14,00.
                     .row
                         .col-xs-6 Adres:
-                        .col-xs-6.text-right asdasd
+                        .col-xs-6.text-right ul. Robotnicza 9U/2 71-712 Szczecin
                     .row
                         .col-xs-6 Telefon:
-                        .col-xs-6.text-right 91-433-45-04
+                        .col-xs-6.text-right 797-318-277
         .card#magazyn
             .card-title.bolder.roboto-font 
                 h4.bolder.roboto-font Magazyn Główny PKPS w Szczecinie
             img(src='static/bpo.jpg' style='width: 100%; height: auto;')
             .card-content
                 .container-fluid
-                    .row.dep-descr.text-justif
-                        .col-xs-12 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     .row
                         .col-xs-6 Adres:
-                        .col-xs-6.text-right asdasd
-                    .row
-                        .col-xs-6 Telefon:
-                        .col-xs-6.text-right 91-433-45-04
+                        .col-xs-6.text-right ul. Robotnicza 9 71-712 Szczecin
         .card#zps
             .card-title.bolder.roboto-font 
                 h4.bolder.roboto-font ZP PKPS w Stargardzie
@@ -91,13 +101,10 @@ block body
             .card-content
                 .container-fluid
                     .row.dep-descr.text-justif
-                        .col-xs-12 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        .col-xs-12 Punkt czynny wtorki i środy w godz. 10,00-12,00.
                     .row
                         .col-xs-6 Adres:
-                        .col-xs-6.text-right asdasd
-                    .row
-                        .col-xs-6 Telefon:
-                        .col-xs-6.text-right 91-433-45-04
+                        .col-xs-6.text-right Osiedle Zachód A5 73-110 Stargard
         .card#zpg
             .card-title.bolder.roboto-font 
                 h4.bolder.roboto-font ZP PKPS w Goleniowie
@@ -105,13 +112,16 @@ block body
             .card-content
                 .container-fluid
                     .row.dep-descr.text-justif
-                        .col-xs-12 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        .col-xs-12 Punkt czynny od poniedziałku do piątku w godz. od 7,00 do 15,00.
+                                   | Żywność z PO PŻ 2014-2020 wydawana jest:
+                                   |we wtorki, środy i czwartki w godz. 10,00-13,00
+
                     .row
                         .col-xs-6 Adres:
-                        .col-xs-6.text-right asdasd
+                        .col-xs-6.text-right ul. Lipowa 8 72-100 Goleniów
                     .row
                         .col-xs-6 Telefon:
-                        .col-xs-6.text-right 91-433-45-04
+                        .col-xs-6.text-right 91 418-47-92
         .card#zpp
             .card-title.bolder.roboto-font 
                 h4.bolder.roboto-font ZP PKPS w Pyrzycach
@@ -119,13 +129,13 @@ block body
             .card-content
                 .container-fluid
                     .row.dep-descr.text-justif
-                        .col-xs-12 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        .col-xs-12 Punkt czynny od wtorku do piątku w godz. od 10,00 do 13,00.
                     .row
                         .col-xs-6 Adres:
-                        .col-xs-6.text-right asdasd
+                        .col-xs-6.text-right ul. Stargardzka 34 74-200 Pyrzyce
                     .row
                         .col-xs-6 Telefon:
-                        .col-xs-6.text-right 91-433-45-04
+                        .col-xs-6.text-right 518-160-979
         .card#zpm
             .card-title.bolder.roboto-font 
                 h4.bolder.roboto-font ZP PKPS w Myśliborzu
@@ -133,13 +143,10 @@ block body
             .card-content
                 .container-fluid
                     .row.dep-descr.text-justif
-                        .col-xs-12 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        .col-xs-12 Punkt czynny w czwartki w godz. 9,00-14,00.
                     .row
                         .col-xs-6 Adres:
-                        .col-xs-6.text-right asdasd
-                    .row
-                        .col-xs-6 Telefon:
-                        .col-xs-6.text-right 91-433-45-04
+                        .col-xs-6.text-right ul. Łużycka 4 74-300 Myślibórz
         .card#zmgb
             .card-title.bolder.roboto-font 
                 h4.bolder.roboto-font ZMG PKPS w Barlinku
@@ -147,13 +154,10 @@ block body
             .card-content
                 .container-fluid
                     .row.dep-descr.text-justif
-                        .col-xs-12 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        .col-xs-12 Punkt czynny w czwartki w godz. od 10,00 – 12,00
                     .row
                         .col-xs-6 Adres:
-                        .col-xs-6.text-right asdasd
-                    .row
-                        .col-xs-6 Telefon:
-                        .col-xs-6.text-right 91-433-45-04
+                        .col-xs-6.text-right ul. Strzelecka 29 74-320 Barlinek
         .card#zmgn
             .card-title.bolder.roboto-font 
                 h4.bolder.roboto-font ZMG PKPS w Nowogardzie
@@ -161,10 +165,7 @@ block body
             .card-content
                 .container-fluid
                     .row.dep-descr.text-justif
-                        .col-xs-12 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        .col-xs-12 Punkt czynny jest w poniedziałki i piątki w godz. od 9,00 do 12,00
                     .row
                         .col-xs-6 Adres:
-                        .col-xs-6.text-right asdasd
-                    .row
-                        .col-xs-6 Telefon:
-                        .col-xs-6.text-right 91-433-45-04
+                        .col-xs-6.text-right ul. 700-lecia 14 72-200 Nowogard
