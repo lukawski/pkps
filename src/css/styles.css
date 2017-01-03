@@ -404,6 +404,10 @@ p {
     max-width: 100%;
 }
 
+.krs {
+  margin-top: 40px;
+}
+
 @media (max-width: 1085px) {
     .navbar-header {
         float: none;
