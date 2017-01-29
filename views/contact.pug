@@ -21,3 +21,19 @@ block body
                 p 
                 | ul. Jagiellońska 18/2
                 | 70-362 Szczecin 
+        .row
+          .col-md-6#map
+
+    script.
+      function initMap() {
+        var pkps = {lat: 53.431877, lng: 14.540213999999992};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: pkps
+        });
+        var marker = new google.maps.Marker({
+          position: pkps,
+          map: map
+        });
+      }
+    script(async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoD2AhM2n5WujGTpb7PpANymaaJE-N78s&callback=initMap")
