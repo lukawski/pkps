@@ -271,6 +271,7 @@ a:focuse {
     display: flex;
     box-sizing: border-box;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 

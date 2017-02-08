@@ -2,22 +2,11 @@ extend base
 block vars
     - var title = "Placówki"
 block body
-    .container-fluid#dep-hello
-        .row.dep-hello
-            .col-lg-6.home-description.second
-                .vertical-center
-                    | Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    | Duis a venenatis enim. Aenean interdum in metus eget ornare. Quisque nec vestibulum ipsum.
-                    | Aenean at convallis nisi, eu bibendum felis. Lorem ipsum dolor sit amet, consectetur
-            .col-lg-6.dep-img.first
-                .vertical-center
-                    h1.bolder.roboto-font.white NASZE PLACÓWKI
-        .row.gap
     #cards
         .card#bar
             .card-title
                 h4.bolder.roboto-font Bar mleczny "Kogel-Mogel" w Szczecinie
-            img(src='static/bpo.jpg' style='width: 100%; height: auto;')
+            img(src='static/departments/bar.jpg' style='width: 100%; height: auto;')
             .card-content
                 .container-fluid
                     .row.dep-descr.text-justif
@@ -41,7 +30,7 @@ block body
         .card#schronisko
             .card-title.bolder.roboto-font 
                 h4.bolder.roboto-font Schronisko dla bezdomnych "WILGA" w Szczecinie
-            img(src='static/bpo.jpg' style='width: 100%; height: auto;')
+            img(src='static/departments/schronisko.jpg' style='width: 100%; height: auto;')
             .card-content
                 .container-fluid
                     .row
@@ -74,7 +63,7 @@ block body
         .card#punkt
             .card-title.bolder.roboto-font 
                 h4.bolder.roboto-font Punkt Pomocy PKPS w Szczecinie
-            img(src='static/bpo.jpg' style='width: 100%; height: auto;')
+            img(src='static/departments/punkt-pomocy.jpg' style='width: 100%; height: auto;')
             .card-content
                 .container-fluid
                     .row.dep-descr.text-justif
@@ -88,7 +77,7 @@ block body
         .card#magazyn
             .card-title.bolder.roboto-font 
                 h4.bolder.roboto-font Magazyn Główny PKPS w Szczecinie
-            img(src='static/bpo.jpg' style='width: 100%; height: auto;')
+            img(src='static/departments/magazyn.jpg' style='width: 100%; height: auto;')
             .card-content
                 .container-fluid
                     .row
