@@ -207,7 +207,7 @@ a:focuse {
 }
 
 .finanse-img {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/money.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/home/money.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -215,7 +215,7 @@ a:focuse {
 }
 
 .zarzad-img {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/board.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/home/board.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -223,7 +223,7 @@ a:focuse {
 }
 
 .history-img {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/history.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/home/history.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -231,7 +231,7 @@ a:focuse {
 }
 
 .helping-img {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/help.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/home/help.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -251,7 +251,7 @@ a:focuse {
 }
 
 .statut-img {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/statut.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/home/statut.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
