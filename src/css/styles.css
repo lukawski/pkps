@@ -23,6 +23,22 @@ h6 {
     color: #2c4254;
 }
 
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a:focuse {
+  text-decoration: none;
+}
+
 .logo {
     width: 30%;
     display: block;
