@@ -10,15 +10,17 @@ block body
             li.active(role='presentation')
                 a(href='#ums' aria-controls="home" role="tab" data-toggle="tab") Urząd Miasta Szczecin
             li(role='presentation')
+                a(href='#mopr' role='tab' data-toggle='tab') Miejski Ośrodek Pomocy Rodzinie
+            li(role='presentation')
                 a(href='#minister' aria-controls="home" role="tab" data-toggle="tab") Minister Rodziny, Rracy i Polityki Społecznej
             li(role='presentation')
                 a(href='#uws' aria-controls="home" role="tab" data-toggle="tab") Urząd Wojewódzki Szczecin
                 
         .tab-content.shadow-tab
-            .tab-pane.active.fade.in#ums(role='tabpanel')
+            .tab-pane.active.fade.in.programs-cards#ums(role='tabpanel')
                 .row
                     .col-md-2
-                        img.szczecin(src='/static/img/programs/szczecin.png')
+                        img.programs-img(src='/static/img/programs/szczecin.png')
                     .col-md-6
                         h5 Wsparcie realizacji zadania publicznego finansowanego przez Gminę Miasto Szczecin pod nazwą:
                         h4 "REHABILITACJA SPOŁECZNA OSÓB BEZDOMNYCH, ZAPEWNIENIE SCHRONIENIA OSOBOM POTRZEBUJĄCYM, POŁĄCZONE Z PROFILAKTYKĄ UZALEŻNIEŃ REALIZOWANE W SZCZECINIE DLA OSÓB BEZDOMNYCH”
@@ -31,7 +33,7 @@ block body
                                 h4.list-group-item-heading Miejsce
                                 p.list-group-item-text SCHRONISKO DLA BEZDOMNYCH MĘŻCZYZN „WILGA” UL. TCZEWSKA 32 SZCZECIN – WIELGOWO
                 .row
-                    img.szczecin(src='/static/img/programs/szczecin.png')
+                    img.programs-img(src='/static/img/programs/szczecin.png')
                     .col-md-6
                         h5 Wsparcie realizacji zadania publicznego finansowanego przez Gminę Miasto Szczecin pod nazwą:
                         h4 "WSPARCIE OSÓB W TRUDNEJ SYTUACJI ŻYCIOWEJ, WYBRANYMI ŚWIADCZENIAMI RZECZOWYMI W POSTACI OFEROWANIA NIEODPŁATNIE, ARTYKUŁÓW ŻYWNOŚCIOWYCH, ODZIEŻY, ARTYKUŁÓW HIGIENICZNYCH, MOŻLIWOŚCI KĄPIELI”
@@ -48,7 +50,7 @@ block body
                                         li Punkt Pomocy PKPS w Szczecinie przy ul. Robotniczej 9U/2
                                         li Bar Mleczny PKPS "Kogel – Mogel" w Szczecinie ul. Wyzwolenia 115
                 .row
-                    img.szczecin(src='/static/img/programs/szczecin.png')
+                    img.programs-img(src='/static/img/programs/szczecin.png')
                     .col-md-6
                         h5 Wsparcie realizacji zadania publicznego finansowanego przez Gminę Miasto Szczecin pod nazwą:
                         h4.text-justif "ZAPEWNIENIE GORĄCEGO JEDNODANIOWEGO POSIŁKU OSOBOM BEZDOMNYM PRZEBYWAJĄCYM W SCHRONISKACH NA TERENIE SZCZECINA ORAZ INNYM MIESZKAŃCOM MIASTA SZCZECIN, KTÓRZY DECYZJĄ MIEJSKIEGO OŚRODKA POMOCY RODZINIE ZOSTALI UPRAWNIENI DO OTRZYMANIA TAKIEJ POMOCY”
@@ -60,6 +62,16 @@ block body
                             a.list-group-item
                                 h4.list-group-item-heading Miejsce
                                 p.list-group-item-text Bar Mleczny PKPS "Kogel – Mogel" w Szczecinie ul. Wyzwolenia 115
+            .tab-pane.fade.in.programs-cards#mopr(role='tabpanel')
+                .row
+                    img.programs-img(src='/static/img/programs/logo-mopr.jpg')
+                    .col-md-3
+                        h4.text-justi Prace społecznie użyteczne
+                    .col-md-4
+                        ul.list-group
+                            a.list-group-item
+                                h4.list-group-item-heading Czas trwania
+                                p.list-group-item-text 16.01.2017 do 11.12.2017
             .tab-pane.fade.in#minister(role='tabpanel')
                 h2 WKRÓTCE
             .tab-pane.fade.in#uws(role='tabpanel')
