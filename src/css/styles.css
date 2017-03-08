@@ -523,6 +523,9 @@ p {
     .programs-img {
         float: left;
     }
+    .fixed-pills {
+        position: fixed;
+    }
 }
 
 @media (min-width: 768px) {
