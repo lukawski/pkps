@@ -19,8 +19,7 @@ block body
         .tab-content.shadow-tab
             .tab-pane.active.fade.in.programs-cards#ums(role='tabpanel')
                 .row
-                    .col-md-2
-                        img.programs-img(src='/static/img/programs/szczecin.png')
+                    img.programs-img(src='/static/img/programs/szczecin.png')
                     .col-md-6
                         h5 Wsparcie realizacji zadania publicznego finansowanego przez Gminę Miasto Szczecin pod nazwą:
                         h4 "REHABILITACJA SPOŁECZNA OSÓB BEZDOMNYCH, ZAPEWNIENIE SCHRONIENIA OSOBOM POTRZEBUJĄCYM, POŁĄCZONE Z PROFILAKTYKĄ UZALEŻNIEŃ REALIZOWANE W SZCZECINIE DLA OSÓB BEZDOMNYCH”
@@ -64,7 +63,8 @@ block body
                                 p.list-group-item-text Bar Mleczny PKPS "Kogel – Mogel" w Szczecinie ul. Wyzwolenia 115
             .tab-pane.fade.in.programs-cards#mopr(role='tabpanel')
                 .row
-                    img.programs-img(src='/static/img/programs/logo-mopr.jpg')
+                    .col-md-4
+                        img.programs-img.img-responsive(src='/static/img/programs/logo-mopr.jpg')
                     .col-md-3
                         h4.text-justi Prace społecznie użyteczne
                     .col-md-4
